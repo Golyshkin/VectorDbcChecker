@@ -1,822 +1,822 @@
 2022-12-29 16:37:20,391 INFO START DBCs CHECK.
-2022-12-29 16:37:20,391 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Actia_eCall_CAN.dbc'
-2022-12-29 16:37:20,396 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ACU_Arrival.dbc'
-2022-12-29 16:37:20,403 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ADAS_FlashData.dbc'
-2022-12-29 16:37:20,406 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ADAS_J1939.dbc'
+2022-12-29 16:37:20,391 INFO Processed 'D:/Projects/DBC Releases/Actia_eCall_CAN.dbc'
+2022-12-29 16:37:20,396 INFO Processed 'D:/Projects/DBC Releases/ACU.dbc'
+2022-12-29 16:37:20,403 INFO Processed 'D:/Projects/DBC Releases/ADAS_FlashData.dbc'
+2022-12-29 16:37:20,406 INFO Processed 'D:/Projects/DBC Releases/ADAS_J1939.dbc'
 2022-12-29 16:37:21,095 ERROR The signal SCRSysTotalSysCleanInhReq does not fit in message AT1HI2.
-2022-12-29 16:37:21,104 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ADAS_Telemetry.dbc'
-2022-12-29 16:37:21,122 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\AEB_HMI.dbc'
-2022-12-29 16:37:21,123 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ALARMDRV.dbc'
+2022-12-29 16:37:21,104 INFO Processed 'D:/Projects/DBC Releases/ADAS_Telemetry.dbc'
+2022-12-29 16:37:21,122 INFO Processed 'D:/Projects/DBC Releases/AEB_HMI.dbc'
+2022-12-29 16:37:21,123 INFO Processed 'D:/Projects/DBC Releases/ALARMDRV.dbc'
 2022-12-29 16:37:21,126 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,127 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Amphenol_TTI_TEDU.dbc'
-2022-12-29 16:37:21,128 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ArrivalDTC.dbc'
-2022-12-29 16:37:21,131 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ArrivalSecurity.dbc'
+2022-12-29 16:37:21,127 INFO Processed 'D:/Projects/DBC Releases/Amphenol_TTI_TEDU.dbc'
+2022-12-29 16:37:21,128 INFO Processed 'D:/Projects/DBC Releases/DTC.dbc'
+2022-12-29 16:37:21,131 INFO Processed 'D:/Projects/DBC Releases/Security.dbc'
 2022-12-29 16:37:21,134 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,134 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_AVAS.dbc'
-2022-12-29 16:37:21,145 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_BMS_v4.dbc'
-2022-12-29 16:37:21,170 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_BMS_v4_Service.dbc'
-2022-12-29 16:37:21,184 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\arrival_boards.dbc'
-2022-12-29 16:37:21,194 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_Charging_Controller.dbc'
-2022-12-29 16:37:21,219 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_CMS.dbc'
-2022-12-29 16:37:21,221 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_dcu_diagnostics.dbc'
-2022-12-29 16:37:21,234 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_dcu_Van.dbc'
-2022-12-29 16:37:21,263 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_health.dbc'
-2022-12-29 16:37:21,272 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_HMI.dbc'
-2022-12-29 16:37:21,278 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_HMI_TS.dbc'
-2022-12-29 16:37:21,289 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_HVBM_BMS.dbc'
-2022-12-29 16:37:21,342 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_hvbm_state.dbc'
-2022-12-29 16:37:21,466 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_HVBM_Test.dbc'
+2022-12-29 16:37:21,134 INFO Processed 'D:/Projects/DBC Releases/_AVAS.dbc'
+2022-12-29 16:37:21,145 INFO Processed 'D:/Projects/DBC Releases/_BMS_v4.dbc'
+2022-12-29 16:37:21,170 INFO Processed 'D:/Projects/DBC Releases/_BMS_v4_Service.dbc'
+2022-12-29 16:37:21,184 INFO Processed 'D:/Projects/DBC Releases/_boards.dbc'
+2022-12-29 16:37:21,194 INFO Processed 'D:/Projects/DBC Releases/_Charging_Controller.dbc'
+2022-12-29 16:37:21,219 INFO Processed 'D:/Projects/DBC Releases/_CMS.dbc'
+2022-12-29 16:37:21,221 INFO Processed 'D:/Projects/DBC Releases/_dcu_diagnostics.dbc'
+2022-12-29 16:37:21,234 INFO Processed 'D:/Projects/DBC Releases/_dcu_Van.dbc'
+2022-12-29 16:37:21,263 INFO Processed 'D:/Projects/DBC Releases/_health.dbc'
+2022-12-29 16:37:21,272 INFO Processed 'D:/Projects/DBC Releases/_HMI.dbc'
+2022-12-29 16:37:21,278 INFO Processed 'D:/Projects/DBC Releases/_HMI_TS.dbc'
+2022-12-29 16:37:21,289 INFO Processed 'D:/Projects/DBC Releases/_HVBM_BMS.dbc'
+2022-12-29 16:37:21,342 INFO Processed 'D:/Projects/DBC Releases/_hvbm_state.dbc'
+2022-12-29 16:37:21,466 INFO Processed 'D:/Projects/DBC Releases/_HVBM_Test.dbc'
 2022-12-29 16:37:21,471 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,472 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_mp3_can_player.dbc'
-2022-12-29 16:37:21,475 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_OBC_v1.dbc'
-2022-12-29 16:37:21,485 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_TRDISP_v2.dbc'
+2022-12-29 16:37:21,472 INFO Processed 'D:/Projects/DBC Releases/_mp3_can_player.dbc'
+2022-12-29 16:37:21,475 INFO Processed 'D:/Projects/DBC Releases/_OBC_v1.dbc'
+2022-12-29 16:37:21,485 INFO Processed 'D:/Projects/DBC Releases/_TRDISP_v2.dbc'
 2022-12-29 16:37:21,489 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,490 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc'
-2022-12-29 16:37:21,655 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_VAN_TPMS.dbc'
-2022-12-29 16:37:21,659 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc'
-2022-12-29 16:37:21,681 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\BrakingSystem.dbc'
-2022-12-29 16:37:21,685 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\BSM.dbc'
+2022-12-29 16:37:21,490 INFO Processed 'D:/Projects/DBC Releases/_uio.dbc'
+2022-12-29 16:37:21,655 INFO Processed 'D:/Projects/DBC Releases/_VAN_TPMS.dbc'
+2022-12-29 16:37:21,659 INFO Processed 'D:/Projects/DBC Releases/ARS408_can_database.dbc'
+2022-12-29 16:37:21,681 INFO Processed 'D:/Projects/DBC Releases/BrakingSystem.dbc'
+2022-12-29 16:37:21,685 INFO Processed 'D:/Projects/DBC Releases/BSM.dbc'
 2022-12-29 16:37:21,687 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,689 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CabinDoors.dbc'
+2022-12-29 16:37:21,689 INFO Processed 'D:/Projects/DBC Releases/CabinDoors.dbc'
 2022-12-29 16:37:21,694 ERROR The signals PassPwrHallTick and PassPwrSldDoorFaults are overlapping in message PPSDS.
-2022-12-29 16:37:21,695 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_1_ECU.dbc'
+2022-12-29 16:37:21,695 INFO Processed 'D:/Projects/DBC Releases/CABIN_IO_1_ECU.dbc'
 2022-12-29 16:37:21,699 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,700 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_2_ECU.dbc'
+2022-12-29 16:37:21,700 INFO Processed 'D:/Projects/DBC Releases/CABIN_IO_2_ECU.dbc'
 2022-12-29 16:37:21,704 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,704 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_3_ECU.dbc'
+2022-12-29 16:37:21,704 INFO Processed 'D:/Projects/DBC Releases/CABIN_IO_3_ECU.dbc'
 2022-12-29 16:37:21,706 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,707 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_3_ECU_FlashData.dbc'
+2022-12-29 16:37:21,707 INFO Processed 'D:/Projects/DBC Releases/CABIN_IO_3_ECU_FlashData.dbc'
 2022-12-29 16:37:21,709 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,710 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\can_calibration_protocol.dbc'
-2022-12-29 16:37:21,713 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\can_utils.dbc'
-2022-12-29 16:37:21,715 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\can_utils_fd.dbc'
-2022-12-29 16:37:21,718 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CargoLights.dbc'
+2022-12-29 16:37:21,710 INFO Processed 'D:/Projects/DBC Releases/can_calibration_protocol.dbc'
+2022-12-29 16:37:21,713 INFO Processed 'D:/Projects/DBC Releases/can_utils.dbc'
+2022-12-29 16:37:21,715 INFO Processed 'D:/Projects/DBC Releases/can_utils_fd.dbc'
+2022-12-29 16:37:21,718 INFO Processed 'D:/Projects/DBC Releases/CargoLights.dbc'
 2022-12-29 16:37:21,720 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,724 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CENTLOCK.dbc'
+2022-12-29 16:37:21,724 INFO Processed 'D:/Projects/DBC Releases/CENTLOCK.dbc'
 2022-12-29 16:37:21,726 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,727 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc'
-2022-12-29 16:37:21,807 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CHRG.dbc'
+2022-12-29 16:37:21,727 INFO Processed 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc'
+2022-12-29 16:37:21,807 INFO Processed 'D:/Projects/DBC Releases/CHRG.dbc'
 2022-12-29 16:37:21,809 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,809 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Clearance.dbc'
+2022-12-29 16:37:21,809 INFO Processed 'D:/Projects/DBC Releases/Clearance.dbc'
 2022-12-29 16:37:21,812 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,812 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Climate_System.dbc'
-2022-12-29 16:37:21,832 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CLSAVAS.dbc'
+2022-12-29 16:37:21,812 INFO Processed 'D:/Projects/DBC Releases/Climate_System.dbc'
+2022-12-29 16:37:21,832 INFO Processed 'D:/Projects/DBC Releases/CLSAVAS.dbc'
 2022-12-29 16:37:21,834 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,834 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Comm.dbc'
+2022-12-29 16:37:21,834 INFO Processed 'D:/Projects/DBC Releases/Comm.dbc'
 2022-12-29 16:37:21,836 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,837 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\common_enums.dbc'
-2022-12-29 16:37:21,840 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Control_Multiplexer_test.dbc'
+2022-12-29 16:37:21,837 INFO Processed 'D:/Projects/DBC Releases/common_enums.dbc'
+2022-12-29 16:37:21,840 INFO Processed 'D:/Projects/DBC Releases/Control_Multiplexer_test.dbc'
 2022-12-29 16:37:21,843 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,843 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CPP.dbc'
+2022-12-29 16:37:21,843 INFO Processed 'D:/Projects/DBC Releases/CPP.dbc'
 2022-12-29 16:37:21,845 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,846 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_API.dbc'
-2022-12-29 16:37:21,850 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_FlashData.dbc'
-2022-12-29 16:37:21,855 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc'
-2022-12-29 16:37:21,937 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DebugOutputs.dbc'
+2022-12-29 16:37:21,846 INFO Processed 'D:/Projects/DBC Releases/DCU_API.dbc'
+2022-12-29 16:37:21,850 INFO Processed 'D:/Projects/DBC Releases/DCU_FlashData.dbc'
+2022-12-29 16:37:21,855 INFO Processed 'D:/Projects/DBC Releases/DCU_V5.dbc'
+2022-12-29 16:37:21,937 INFO Processed 'D:/Projects/DBC Releases/DebugOutputs.dbc'
 2022-12-29 16:37:21,940 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,941 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\dev_error_handler.dbc'
+2022-12-29 16:37:21,941 INFO Processed 'D:/Projects/DBC Releases/dev_error_handler.dbc'
 2022-12-29 16:37:21,942 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,943 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DPad.dbc'
+2022-12-29 16:37:21,943 INFO Processed 'D:/Projects/DBC Releases/DPad.dbc'
 2022-12-29 16:37:21,945 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,946 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DTS_API.dbc'
-2022-12-29 16:37:21,954 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DTS_Flt_Mng.dbc'
-2022-12-29 16:37:21,957 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DVT.dbc'
-2022-12-29 16:37:21,969 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\E2E.dbc'
+2022-12-29 16:37:21,946 INFO Processed 'D:/Projects/DBC Releases/DTS_API.dbc'
+2022-12-29 16:37:21,954 INFO Processed 'D:/Projects/DBC Releases/DTS_Flt_Mng.dbc'
+2022-12-29 16:37:21,957 INFO Processed 'D:/Projects/DBC Releases/DVT.dbc'
+2022-12-29 16:37:21,969 INFO Processed 'D:/Projects/DBC Releases/E2E.dbc'
 2022-12-29 16:37:21,973 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,974 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\EDIC_THERMAL_IM_test.dbc'
+2022-12-29 16:37:21,974 INFO Processed 'D:/Projects/DBC Releases/EDIC_THERMAL_IM_test.dbc'
 2022-12-29 16:37:21,981 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,982 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\EPB_Van.dbc'
-2022-12-29 16:37:21,984 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ExtLightsSystem.dbc'
+2022-12-29 16:37:21,982 INFO Processed 'D:/Projects/DBC Releases/EPB_Van.dbc'
+2022-12-29 16:37:21,984 INFO Processed 'D:/Projects/DBC Releases/ExtLightsSystem.dbc'
 2022-12-29 16:37:21,987 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,988 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc'
+2022-12-29 16:37:21,988 INFO Processed 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc'
 2022-12-29 16:37:21,993 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,994 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc'
+2022-12-29 16:37:21,994 INFO Processed 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc'
 2022-12-29 16:37:21,999 ERROR Missed network nodes detected.
-2022-12-29 16:37:21,999 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_3_ECU.dbc'
+2022-12-29 16:37:21,999 INFO Processed 'D:/Projects/DBC Releases/FRONT_IO_3_ECU.dbc'
 2022-12-29 16:37:22,001 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,002 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_4_ECU.dbc'
+2022-12-29 16:37:22,002 INFO Processed 'D:/Projects/DBC Releases/FRONT_IO_4_ECU.dbc'
 2022-12-29 16:37:22,002 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,003 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\GS.dbc'
+2022-12-29 16:37:22,003 INFO Processed 'D:/Projects/DBC Releases/GS.dbc'
 2022-12-29 16:37:22,007 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,008 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\GS_DBG.dbc'
+2022-12-29 16:37:22,008 INFO Processed 'D:/Projects/DBC Releases/GS_DBG.dbc'
 2022-12-29 16:37:22,013 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,013 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\GS_FLT.dbc'
+2022-12-29 16:37:22,013 INFO Processed 'D:/Projects/DBC Releases/GS_FLT.dbc'
 2022-12-29 16:37:22,015 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,016 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HeatPump.dbc'
-2022-12-29 16:37:22,019 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HGCS.dbc'
+2022-12-29 16:37:22,016 INFO Processed 'D:/Projects/DBC Releases/HeatPump.dbc'
+2022-12-29 16:37:22,019 INFO Processed 'D:/Projects/DBC Releases/HGCS.dbc'
 2022-12-29 16:37:22,022 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,022 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HMIUserInteract.dbc'
+2022-12-29 16:37:22,022 INFO Processed 'D:/Projects/DBC Releases/HMIUserInteract.dbc'
 2022-12-29 16:37:22,024 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,025 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HMI_AD.dbc'
-2022-12-29 16:37:22,028 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HMI_Comm_Platform_ZF_STR_DRV.dbc'
-2022-12-29 16:37:22,030 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HMI_ELS.dbc'
+2022-12-29 16:37:22,025 INFO Processed 'D:/Projects/DBC Releases/HMI_AD.dbc'
+2022-12-29 16:37:22,028 INFO Processed 'D:/Projects/DBC Releases/HMI_Comm_Platform_ZF_STR_DRV.dbc'
+2022-12-29 16:37:22,030 INFO Processed 'D:/Projects/DBC Releases/HMI_ELS.dbc'
 2022-12-29 16:37:22,033 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,033 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HMI_KB_BRK_DRV.dbc'
+2022-12-29 16:37:22,033 INFO Processed 'D:/Projects/DBC Releases/HMI_KB_BRK_DRV.dbc'
 2022-12-29 16:37:22,036 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,037 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HMI_SLC.dbc'
+2022-12-29 16:37:22,037 INFO Processed 'D:/Projects/DBC Releases/HMI_SLC.dbc'
 2022-12-29 16:37:22,038 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,041 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Honeywell_TARS-HCASS.dbc'
-2022-12-29 16:37:22,044 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HORN.dbc'
-2022-12-29 16:37:22,047 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HVAC_ECU.dbc'
-2022-12-29 16:37:22,051 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HVPS.dbc'
-2022-12-29 16:37:22,073 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IntLightsSystem.dbc'
+2022-12-29 16:37:22,041 INFO Processed 'D:/Projects/DBC Releases/Honeywell_TARS-HCASS.dbc'
+2022-12-29 16:37:22,044 INFO Processed 'D:/Projects/DBC Releases/HORN.dbc'
+2022-12-29 16:37:22,047 INFO Processed 'D:/Projects/DBC Releases/HVAC_ECU.dbc'
+2022-12-29 16:37:22,051 INFO Processed 'D:/Projects/DBC Releases/HVPS.dbc'
+2022-12-29 16:37:22,073 INFO Processed 'D:/Projects/DBC Releases/IntLightsSystem.dbc'
 2022-12-29 16:37:22,080 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,080 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IntLightsSystemIO.dbc'
+2022-12-29 16:37:22,080 INFO Processed 'D:/Projects/DBC Releases/IntLightsSystemIO.dbc'
 2022-12-29 16:37:22,087 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,087 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc'
-2022-12-29 16:37:22,194 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\j1939.dbc'
+2022-12-29 16:37:22,087 INFO Processed 'D:/Projects/DBC Releases/IO_A_v4.dbc'
+2022-12-29 16:37:22,194 INFO Processed 'D:/Projects/DBC Releases/j1939.dbc'
 2022-12-29 16:37:22,898 ERROR The signal SCRSysTotalSysCleanInhReq does not fit in message AT1HI2.
-2022-12-29 16:37:22,908 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\j1939_HVAC.dbc'
+2022-12-29 16:37:22,908 INFO Processed 'D:/Projects/DBC Releases/j1939_HVAC.dbc'
 2022-12-29 16:37:22,910 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,911 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\J1939_HVES.dbc'
-2022-12-29 16:37:22,930 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\j1939_system.dbc'
-2022-12-29 16:37:22,952 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\j1939_TPMS.dbc'
-2022-12-29 16:37:22,973 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\KeyFob.dbc'
+2022-12-29 16:37:22,911 INFO Processed 'D:/Projects/DBC Releases/J1939_HVES.dbc'
+2022-12-29 16:37:22,930 INFO Processed 'D:/Projects/DBC Releases/j1939_system.dbc'
+2022-12-29 16:37:22,952 INFO Processed 'D:/Projects/DBC Releases/j1939_TPMS.dbc'
+2022-12-29 16:37:22,973 INFO Processed 'D:/Projects/DBC Releases/KeyFob.dbc'
 2022-12-29 16:37:22,975 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,975 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\LightSens.dbc'
+2022-12-29 16:37:22,975 INFO Processed 'D:/Projects/DBC Releases/LightSens.dbc'
 2022-12-29 16:37:22,977 ERROR Missed network nodes detected.
-2022-12-29 16:37:22,978 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\LVInternal.dbc'
-2022-12-29 16:37:22,982 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\LVSYSOP.dbc'
-2022-12-29 16:37:22,993 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\maintenance_status.dbc'
-2022-12-29 16:37:22,996 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\META_DCDC_MSCXX1003.dbc'
-2022-12-29 16:37:22,999 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Mirrors.dbc'
+2022-12-29 16:37:22,978 INFO Processed 'D:/Projects/DBC Releases/LVInternal.dbc'
+2022-12-29 16:37:22,982 INFO Processed 'D:/Projects/DBC Releases/LVSYSOP.dbc'
+2022-12-29 16:37:22,993 INFO Processed 'D:/Projects/DBC Releases/maintenance_status.dbc'
+2022-12-29 16:37:22,996 INFO Processed 'D:/Projects/DBC Releases/META_DCDC_MSCXX1003.dbc'
+2022-12-29 16:37:22,999 INFO Processed 'D:/Projects/DBC Releases/Mirrors.dbc'
 2022-12-29 16:37:23,001 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,002 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\module_info.dbc'
-2022-12-29 16:37:23,012 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\module_power.dbc'
-2022-12-29 16:37:23,015 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NAVconfig.dbc'
+2022-12-29 16:37:23,002 INFO Processed 'D:/Projects/DBC Releases/module_info.dbc'
+2022-12-29 16:37:23,012 INFO Processed 'D:/Projects/DBC Releases/module_power.dbc'
+2022-12-29 16:37:23,015 INFO Processed 'D:/Projects/DBC Releases/NAVconfig.dbc'
 2022-12-29 16:37:23,016 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,017 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTCDRV.dbc'
+2022-12-29 16:37:23,017 INFO Processed 'D:/Projects/DBC Releases/NTCDRV.dbc'
 2022-12-29 16:37:23,018 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,019 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc'
-2022-12-29 16:37:23,067 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ODM.dbc'
+2022-12-29 16:37:23,019 INFO Processed 'D:/Projects/DBC Releases/NTO__MANDO_CAN_SPEC_P.dbc'
+2022-12-29 16:37:23,067 INFO Processed 'D:/Projects/DBC Releases/ODM.dbc'
 2022-12-29 16:37:23,070 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,070 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_ACU_Arrival.dbc'
-2022-12-29 16:37:23,076 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_Arrival_OBC_v1.dbc'
-2022-12-29 16:37:23,079 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_Chassis_CAN_v3.5_ModifiedInt.dbc'
-2022-12-29 16:37:23,091 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_META_DCDC_MSCXX1003.dbc'
-2022-12-29 16:37:23,094 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc'
-2022-12-29 16:37:23,142 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ParkAssistance.dbc'
+2022-12-29 16:37:23,070 INFO Processed 'D:/Projects/DBC Releases/OVERRIDE_ACU.dbc'
+2022-12-29 16:37:23,076 INFO Processed 'D:/Projects/DBC Releases/OVERRIDE__OBC_v1.dbc'
+2022-12-29 16:37:23,079 INFO Processed 'D:/Projects/DBC Releases/OVERRIDE_Chassis_CAN_v3.5_ModifiedInt.dbc'
+2022-12-29 16:37:23,091 INFO Processed 'D:/Projects/DBC Releases/OVERRIDE_META_DCDC_MSCXX1003.dbc'
+2022-12-29 16:37:23,094 INFO Processed 'D:/Projects/DBC Releases/OVERRIDE_NTO__MANDO_CAN_SPEC_P.dbc'
+2022-12-29 16:37:23,142 INFO Processed 'D:/Projects/DBC Releases/ParkAssistance.dbc'
 2022-12-29 16:37:23,146 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,146 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\PYLDSYS.dbc'
+2022-12-29 16:37:23,146 INFO Processed 'D:/Projects/DBC Releases/PYLDSYS.dbc'
 2022-12-29 16:37:23,151 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,152 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\RDF2_ARS430CS11.dbc'
-2022-12-29 16:37:23,178 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_1_ECU.dbc'
+2022-12-29 16:37:23,152 INFO Processed 'D:/Projects/DBC Releases/RDF2_ARS430CS11.dbc'
+2022-12-29 16:37:23,178 INFO Processed 'D:/Projects/DBC Releases/REAR_IO_1_ECU.dbc'
 2022-12-29 16:37:23,183 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,184 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_1_ECU_FlashData.dbc'
+2022-12-29 16:37:23,184 INFO Processed 'D:/Projects/DBC Releases/REAR_IO_1_ECU_FlashData.dbc'
 2022-12-29 16:37:23,186 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,186 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_2_ECU.dbc'
+2022-12-29 16:37:23,186 INFO Processed 'D:/Projects/DBC Releases/REAR_IO_2_ECU.dbc'
 2022-12-29 16:37:23,191 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,192 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\RollerShutter.dbc'
+2022-12-29 16:37:23,192 INFO Processed 'D:/Projects/DBC Releases/RollerShutter.dbc'
 2022-12-29 16:37:23,195 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,196 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SBU_API.dbc'
-2022-12-29 16:37:23,200 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SC23S_general_customer.dbc'
-2022-12-29 16:37:23,204 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SCU_API.dbc'
-2022-12-29 16:37:23,206 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SEATBELT.dbc'
-2022-12-29 16:37:23,210 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\sim100.dbc'
-2022-12-29 16:37:23,218 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\sim100_Test.dbc'
-2022-12-29 16:37:23,222 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SimpVSM.dbc'
+2022-12-29 16:37:23,196 INFO Processed 'D:/Projects/DBC Releases/SBU_API.dbc'
+2022-12-29 16:37:23,200 INFO Processed 'D:/Projects/DBC Releases/SC23S_general_customer.dbc'
+2022-12-29 16:37:23,204 INFO Processed 'D:/Projects/DBC Releases/SCU_API.dbc'
+2022-12-29 16:37:23,206 INFO Processed 'D:/Projects/DBC Releases/SEATBELT.dbc'
+2022-12-29 16:37:23,210 INFO Processed 'D:/Projects/DBC Releases/sim100.dbc'
+2022-12-29 16:37:23,218 INFO Processed 'D:/Projects/DBC Releases/sim100_Test.dbc'
+2022-12-29 16:37:23,222 INFO Processed 'D:/Projects/DBC Releases/SimpVSM.dbc'
 2022-12-29 16:37:23,225 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,225 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SimpVSM_DBG.dbc'
+2022-12-29 16:37:23,225 INFO Processed 'D:/Projects/DBC Releases/SimpVSM_DBG.dbc'
 2022-12-29 16:37:23,230 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,230 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SmartTP.dbc'
+2022-12-29 16:37:23,230 INFO Processed 'D:/Projects/DBC Releases/SmartTP.dbc'
 2022-12-29 16:37:23,243 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,243 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\spi2can.dbc'
-2022-12-29 16:37:23,247 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\STR_HV.dbc'
+2022-12-29 16:37:23,243 INFO Processed 'D:/Projects/DBC Releases/spi2can.dbc'
+2022-12-29 16:37:23,247 INFO Processed 'D:/Projects/DBC Releases/STR_HV.dbc'
 2022-12-29 16:37:23,249 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,250 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Supervisor_API.dbc'
-2022-12-29 16:37:23,254 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TCU.dbc'
-2022-12-29 16:37:23,267 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ThermalSysINT.dbc'
+2022-12-29 16:37:23,250 INFO Processed 'D:/Projects/DBC Releases/Supervisor_API.dbc'
+2022-12-29 16:37:23,254 INFO Processed 'D:/Projects/DBC Releases/TCU.dbc'
+2022-12-29 16:37:23,267 INFO Processed 'D:/Projects/DBC Releases/ThermalSysINT.dbc'
 2022-12-29 16:37:23,271 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,272 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1.dbc'
-2022-12-29 16:37:23,281 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1_chopper.dbc'
+2022-12-29 16:37:23,272 INFO Processed 'D:/Projects/DBC Releases/TMCUv1.dbc'
+2022-12-29 16:37:23,281 INFO Processed 'D:/Projects/DBC Releases/TMCUv1_chopper.dbc'
 2022-12-29 16:37:23,284 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,284 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1_debug.dbc'
-2022-12-29 16:37:23,290 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1_inductor.dbc'
-2022-12-29 16:37:23,300 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1_logging.dbc'
-2022-12-29 16:37:23,309 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1_motor-test.dbc'
-2022-12-29 16:37:23,315 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1_telemetry.dbc'
-2022-12-29 16:37:23,319 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TSR.dbc'
+2022-12-29 16:37:23,284 INFO Processed 'D:/Projects/DBC Releases/TMCUv1_debug.dbc'
+2022-12-29 16:37:23,290 INFO Processed 'D:/Projects/DBC Releases/TMCUv1_inductor.dbc'
+2022-12-29 16:37:23,300 INFO Processed 'D:/Projects/DBC Releases/TMCUv1_logging.dbc'
+2022-12-29 16:37:23,309 INFO Processed 'D:/Projects/DBC Releases/TMCUv1_motor-test.dbc'
+2022-12-29 16:37:23,315 INFO Processed 'D:/Projects/DBC Releases/TMCUv1_telemetry.dbc'
+2022-12-29 16:37:23,319 INFO Processed 'D:/Projects/DBC Releases/TSR.dbc'
 2022-12-29 16:37:23,321 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,321 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\UIRSTRTCTRL.dbc'
+2022-12-29 16:37:23,321 INFO Processed 'D:/Projects/DBC Releases/UIRSTRTCTRL.dbc'
 2022-12-29 16:37:23,323 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,324 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\USV_ECU.dbc'
-2022-12-29 16:37:23,371 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VanThermal.dbc'
+2022-12-29 16:37:23,324 INFO Processed 'D:/Projects/DBC Releases/USV_ECU.dbc'
+2022-12-29 16:37:23,371 INFO Processed 'D:/Projects/DBC Releases/VanThermal.dbc'
 2022-12-29 16:37:23,384 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,384 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VANTMS_STTMASHINE.dbc'
+2022-12-29 16:37:23,384 INFO Processed 'D:/Projects/DBC Releases/VANTMS_STTMASHINE.dbc'
 2022-12-29 16:37:23,387 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,387 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VAPI_ARR.dbc'
-2022-12-29 16:37:23,404 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VBC.dbc'
+2022-12-29 16:37:23,387 INFO Processed 'D:/Projects/DBC Releases/VAPI_ARR.dbc'
+2022-12-29 16:37:23,404 INFO Processed 'D:/Projects/DBC Releases/VBC.dbc'
 2022-12-29 16:37:23,407 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,408 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VCU_API.dbc'
-2022-12-29 16:37:23,409 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VHLML.dbc'
+2022-12-29 16:37:23,408 INFO Processed 'D:/Projects/DBC Releases/VCU_API.dbc'
+2022-12-29 16:37:23,409 INFO Processed 'D:/Projects/DBC Releases/VHLML.dbc'
 2022-12-29 16:37:23,411 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,412 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\WheelSpeedSensor.dbc'
+2022-12-29 16:37:23,412 INFO Processed 'D:/Projects/DBC Releases/WheelSpeedSensor.dbc'
 2022-12-29 16:37:23,415 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,416 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\WindowControl.dbc'
+2022-12-29 16:37:23,416 INFO Processed 'D:/Projects/DBC Releases/WindowControl.dbc'
 2022-12-29 16:37:23,417 ERROR Missed network nodes detected.
-2022-12-29 16:37:23,418 INFO Processed 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\WPRWSH.dbc'
+2022-12-29 16:37:23,418 INFO Processed 'D:/Projects/DBC Releases/WPRWSH.dbc'
 2022-12-29 16:37:23,421 ERROR Missed network nodes detected.
 2022-12-29 16:37:23,421 INFO START DUPLICATE REPORT
 2022-12-29 16:37:23,421 INFO 
 2022-12-29 16:37:23,422 INFO Found duplicate of 'DCUFlashData' message
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_dcu_Van.dbc' with signals hash '5306138716565764755'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_FlashData.dbc' with signals hash '-3316635979860394833'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ADAS_FlashData.dbc' with signals hash '7662522504410016806'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/_dcu_Van.dbc' with signals hash '5306138716565764755'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/DCU_FlashData.dbc' with signals hash '-3316635979860394833'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/ADAS_FlashData.dbc' with signals hash '7662522504410016806'
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO Found duplicate of 'HMIRequest1' message
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_HMI_TS.dbc' with signals hash '-7575055532721591915'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_dcu_Van.dbc' with signals hash '8331116584034418820'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/_HMI_TS.dbc' with signals hash '-7575055532721591915'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/_dcu_Van.dbc' with signals hash '8331116584034418820'
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO Found duplicate of 'Cluster_0_Status' message
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Actia_eCall_CAN.dbc' with signals hash '4047534614191262181'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc' with signals hash '1725012151442762164'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/Actia_eCall_CAN.dbc' with signals hash '4047534614191262181'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/ARS408_can_database.dbc' with signals hash '1725012151442762164'
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO Found duplicate of 'FRONT_IO_1_ECU_CAN2_1' message
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc' with signals hash '289710963901471252'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_1_ECU.dbc' with signals hash '289710963901471252'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc' with signals hash '289710963901471252'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_1_ECU.dbc' with signals hash '289710963901471252'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_2_ECU.dbc' with signals hash '289710963901471252'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_2_ECU.dbc' with signals hash '289710963901471252'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc' with signals hash '289710963901471252'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_1_ECU.dbc' with signals hash '289710963901471252'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc' with signals hash '289710963901471252'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/REAR_IO_1_ECU.dbc' with signals hash '289710963901471252'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/REAR_IO_2_ECU.dbc' with signals hash '289710963901471252'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_2_ECU.dbc' with signals hash '289710963901471252'
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO Found duplicate of 'CABIN_IO_1_ECU_CAN1_2' message
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_2_ECU.dbc' with signals hash '388456859718854309'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_1_ECU.dbc' with signals hash '388456859718854309'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_2_ECU.dbc' with signals hash '388456859718854309'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_1_ECU.dbc' with signals hash '388456859718854309'
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO Found duplicate of 'CABIN_IO_2_ECU_CAN2_1' message
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc' with signals hash '-7473890214425858669'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_2_ECU.dbc' with signals hash '-7473890214425858669'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_3_ECU.dbc' with signals hash '-7473890214425858669'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_1_ECU.dbc' with signals hash '-7473890214425858669'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc' with signals hash '-7473890214425858669'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_2_ECU.dbc' with signals hash '-7473890214425858669'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_3_ECU.dbc' with signals hash '-7473890214425858669'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_1_ECU.dbc' with signals hash '-7473890214425858669'
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,422 INFO Found duplicate of 'CABIN_IO_3_ECU_CAN1_1' message
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc' with signals hash '-1681125918350853690'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_2_ECU.dbc' with signals hash '-1681125918350853690'
-2022-12-29 16:37:23,422 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_3_ECU.dbc' with signals hash '-1681125918350853690'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc' with signals hash '-1681125918350853690'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_2_ECU.dbc' with signals hash '-1681125918350853690'
+2022-12-29 16:37:23,422 INFO for 'D:/Projects/DBC Releases/CABIN_IO_3_ECU.dbc' with signals hash '-1681125918350853690'
 2022-12-29 16:37:23,422 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'eLCVD_Info_1' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc' with signals hash '3372840785491251060'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '7184545538197016649'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/ARS408_can_database.dbc' with signals hash '3372840785491251060'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '7184545538197016649'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'IBC_Regen_Brake' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '2089506227696878539'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_mp3_can_player.dbc' with signals hash '1060164509893479410'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '2089506227696878539'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/_mp3_can_player.dbc' with signals hash '1060164509893479410'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'Req' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\common_enums.dbc' with signals hash '5068668556854533767'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Control_Multiplexer_test.dbc' with signals hash '-187438729427256033'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/common_enums.dbc' with signals hash '5068668556854533767'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/Control_Multiplexer_test.dbc' with signals hash '-187438729427256033'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'IoCommandBridge1' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '7948382175899878485'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '2787101664230999491'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '7948382175899878485'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '7948382175899878485'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '2787101664230999491'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '7948382175899878485'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'IoCommandDuty1' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '1276169520531723748'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6569284448466280855'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '4964394726778719248'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '1276169520531723748'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6569284448466280855'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '4964394726778719248'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'IoCommandDutyFD' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5236686131653264805'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-7716152224206744307'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '4964394726778719248'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5236686131653264805'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-7716152224206744307'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '4964394726778719248'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'IoCommandPinMode1' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '5117568315027520687'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '8385460191134186050'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-2357148764255630350'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '5117568315027520687'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '8385460191134186050'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-2357148764255630350'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'IoCommandPinMode2' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-8032590591527221910'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6215893847558221108'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '6929822325209299645'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-8032590591527221910'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6215893847558221108'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '6929822325209299645'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,423 INFO Found duplicate of 'IoCommandPinMode3' message
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-7635906643624024387'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-8351293801797368079'
-2022-12-29 16:37:23,423 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-3827764982854397806'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-7635906643624024387'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-8351293801797368079'
+2022-12-29 16:37:23,423 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-3827764982854397806'
 2022-12-29 16:37:23,423 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoCommandPwmFreq1' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-7233753202746037873'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-131031785743438594'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5370430800584906437'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-7233753202746037873'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-131031785743438594'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5370430800584906437'
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoDigitalDutyStatus1' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5997147119711868288'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-2377850049784019937'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3922097540552419342'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5997147119711868288'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-2377850049784019937'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3922097540552419342'
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoDigitalFrequencyStatus1' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-7164578178397980660'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-8293833059241354612'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-6971745852062006357'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-7164578178397980660'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-8293833059241354612'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-6971745852062006357'
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoDigitalFrequencyStatus2' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-7186505090338103860'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '5773959753109974390'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-7186505090338103860'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '5773959753109974390'
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoStatusBridge1' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '6362297708863739533'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-626107751061259949'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6362297708863739533'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '6362297708863739533'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-626107751061259949'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6362297708863739533'
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoStatusCurrent1' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-5734717075848793087'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-5014716290536872968'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-6592081537641898013'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-5734717075848793087'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-5014716290536872968'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-6592081537641898013'
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoStatusCurrent2' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '679320873455119021'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5343288004307928410'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3595506999608386754'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '679320873455119021'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5343288004307928410'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3595506999608386754'
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO 
 2022-12-29 16:37:23,424 INFO Found duplicate of 'IoStatusCurrentFD' message
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '8435613793876077906'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3309276343931220748'
-2022-12-29 16:37:23,424 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-8520346947139426355'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '8435613793876077906'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3309276343931220748'
+2022-12-29 16:37:23,424 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-8520346947139426355'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusDiagnostic1' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '4878686462652804519'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-5342922549594103037'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-2135565022813947337'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '4878686462652804519'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-5342922549594103037'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-2135565022813947337'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusDiagnostic2' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '4523831893522732313'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-898310384787804676'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-7073995256487900325'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '4523831893522732313'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-898310384787804676'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-7073995256487900325'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusDiagnosticFD' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-8254388015873411831'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-1463562345259013299'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '8422799789382159257'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-8254388015873411831'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-1463562345259013299'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '8422799789382159257'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusDuty1' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-7979824429038270205'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '4160756643878575402'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-13366399568865396'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-7979824429038270205'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '4160756643878575402'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-13366399568865396'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusDutyFD' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5895316585113804446'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-13366399568865396'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '3920168530636294734'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5895316585113804446'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-13366399568865396'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '3920168530636294734'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusFaultCount1' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5446367470536480705'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '7069407361602534953'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-124695332825155856'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5446367470536480705'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '7069407361602534953'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-124695332825155856'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusFaultCount2' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3164854145746995672'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-8200385433918879860'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '8522744721500589829'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3164854145746995672'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-8200385433918879860'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '8522744721500589829'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusFaultCount3' message
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '341592103127245549'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '3660515255346052277'
-2022-12-29 16:37:23,425 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '644493259869257551'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '341592103127245549'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '3660515255346052277'
+2022-12-29 16:37:23,425 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '644493259869257551'
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO 
 2022-12-29 16:37:23,425 INFO Found duplicate of 'IoStatusFaultCount4' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-4755381930202494481'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '255690387951172595'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-2838418690238854580'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-4755381930202494481'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '255690387951172595'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-2838418690238854580'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultCount5' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '852674203133142016'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '5785770956159842370'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-1053580565591992361'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '852674203133142016'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '5785770956159842370'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-1053580565591992361'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultCountFD' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '7866970605303685481'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-5958801323370207617'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '5611871398818176739'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '7866970605303685481'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-5958801323370207617'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '5611871398818176739'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultCurrent1' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '2443910904045754408'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '773057915930788449'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-193192629038326909'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '2443910904045754408'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '773057915930788449'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-193192629038326909'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultCurrent2' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '4328561130911360866'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '3358885829093610394'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-339362757236754106'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '4328561130911360866'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '3358885829093610394'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-339362757236754106'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultCurrentFD' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '1760161738110677522'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-1559992104746037565'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '6980223247023664586'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '1760161738110677522'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-1559992104746037565'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '6980223247023664586'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultVoltage1' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-9029252212180903109'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '5513728912842347346'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-8586599866090759796'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-9029252212180903109'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '5513728912842347346'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-8586599866090759796'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultVoltage2' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '832083804756487440'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-218171605006584109'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-7747819857052220563'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '832083804756487440'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-218171605006584109'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-7747819857052220563'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,426 INFO Found duplicate of 'IoStatusFaultVoltage3' message
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '4711523408564971558'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '62718770150387224'
-2022-12-29 16:37:23,426 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '2914396779593368797'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '4711523408564971558'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '62718770150387224'
+2022-12-29 16:37:23,426 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '2914396779593368797'
 2022-12-29 16:37:23,426 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusFaultVoltage4' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '8806020166195478094'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '7454395348489022359'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-3781692306183913857'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '8806020166195478094'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '7454395348489022359'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-3781692306183913857'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusFaultVoltage5' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-8413943615751554315'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6970766532022960436'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '2678914788304702097'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-8413943615751554315'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6970766532022960436'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '2678914788304702097'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusFaultVoltageFD' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '7940925223552592176'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-8374641637219928477'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-1191829160575855994'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '7940925223552592176'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-8374641637219928477'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-1191829160575855994'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusInputVoltage1' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-7152902112901846708'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '956446472813891601'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '2832624662050824893'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-7152902112901846708'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '956446472813891601'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '2832624662050824893'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusInputVoltage2' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '4153839381716669333'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '2365834816313582587'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '3224851151803539204'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '4153839381716669333'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '2365834816313582587'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '3224851151803539204'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusInputVoltage3' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-1388507364222941172'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '5869690347350751373'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '8844604290870457965'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-1388507364222941172'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '5869690347350751373'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '8844604290870457965'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusInputVoltage4' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '1947477624792637764'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '7935197545983366427'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '6657362402673551703'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '1947477624792637764'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '7935197545983366427'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '6657362402673551703'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusInputVoltage5' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-6299582824189670003'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6904104610160875831'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-760636737446059148'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-6299582824189670003'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6904104610160875831'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-760636737446059148'
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO 
 2022-12-29 16:37:23,427 INFO Found duplicate of 'IoStatusInputVoltageFD' message
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-6905432104493892133'
-2022-12-29 16:37:23,427 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-5819892676165010645'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-7542083916818025475'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-6905432104493892133'
+2022-12-29 16:37:23,427 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-5819892676165010645'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-7542083916818025475'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusPinMode1' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '5397353347475089748'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-6575527718786220883'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '9073307933995848261'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '5397353347475089748'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-6575527718786220883'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '9073307933995848261'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusPinMode2' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5006077709110205924'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-7270817117202858481'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-4680490119591107705'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5006077709110205924'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-7270817117202858481'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-4680490119591107705'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusPinMode3' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '7904820597073167642'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '1240962408780328826'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '6723044136994067204'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '7904820597073167642'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '1240962408780328826'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '6723044136994067204'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusPinModeFD' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '6274652451454343469'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6156831107501775800'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5700639847170294237'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '6274652451454343469'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6156831107501775800'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5700639847170294237'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusPwmFrequency1' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-2582724235504499989'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-7718663733356201143'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-5680418221135877962'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-2582724235504499989'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-7718663733356201143'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-5680418221135877962'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusPwmFrequency2' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '2584764392673225612'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '266224837236711251'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3756472421644118203'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '2584764392673225612'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '266224837236711251'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3756472421644118203'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusPwmFrequencyFD' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-2559985273855762782'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '6031612235210824438'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '9198897193143670714'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-2559985273855762782'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '6031612235210824438'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '9198897193143670714'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO Found duplicate of 'IoStatusQEncoder1' message
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '1325370416949393556'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '1325370416949393556'
-2022-12-29 16:37:23,428 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '1325370416949393556'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '1325370416949393556'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '1325370416949393556'
+2022-12-29 16:37:23,428 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '1325370416949393556'
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,428 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'IoStatusTemperature1' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DCU_V5.dbc' with signals hash '-4683038318352651707'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '4684028703586201457'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-4084468430076595565'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/DCU_V5.dbc' with signals hash '-4683038318352651707'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '4684028703586201457'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-4084468430076595565'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'CABIN_IO_1_ECU_CAN1_1' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc' with signals hash '8539117723372180551'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_1_ECU.dbc' with signals hash '8539117723372180551'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc' with signals hash '8539117723372180551'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/CABIN_IO_1_ECU.dbc' with signals hash '8539117723372180551'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'FRONT_IO_1_ECU_CAN2_2' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc' with signals hash '-5709730415163921665'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_2_ECU.dbc' with signals hash '-5709730415163921665'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc' with signals hash '-5709730415163921665'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/CABIN_IO_2_ECU.dbc' with signals hash '-5709730415163921665'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'FRONT_IO_2_ECU_CAN1_1' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_2_ECU.dbc' with signals hash '-6781666834374357020'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc' with signals hash '-6781666834374357020'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_1_ECU.dbc' with signals hash '-6781666834374357020'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc' with signals hash '-6781666834374357020'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/REAR_IO_2_ECU.dbc' with signals hash '-6781666834374357020'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc' with signals hash '-6781666834374357020'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/REAR_IO_1_ECU.dbc' with signals hash '-6781666834374357020'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc' with signals hash '-6781666834374357020'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'FRONT_IO_2_ECU_CAN1_2' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc' with signals hash '3734030862865049995'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\CABIN_IO_1_ECU.dbc' with signals hash '3734030862865049995'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc' with signals hash '3734030862865049995'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/CABIN_IO_1_ECU.dbc' with signals hash '3734030862865049995'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'FRONT_IO_1_ECU_CAN2_3' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc' with signals hash '-8472238254493171938'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_3_ECU.dbc' with signals hash '-8472238254493171938'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc' with signals hash '-8472238254493171938'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_3_ECU.dbc' with signals hash '-8472238254493171938'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'FRONT_IO_2_ECU_CAN1_3' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_3_ECU.dbc' with signals hash '-6263596703657758363'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc' with signals hash '-6263596703657758363'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_3_ECU.dbc' with signals hash '-6263596703657758363'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc' with signals hash '-6263596703657758363'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'AdSts' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DTS_API.dbc' with signals hash '4449926185781792662'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HMI_AD.dbc' with signals hash '-1278506147372672743'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/DTS_API.dbc' with signals hash '4449926185781792662'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/HMI_AD.dbc' with signals hash '-1278506147372672743'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'HVPS_CommFaults' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ACU_Arrival.dbc' with signals hash '-2328911173207265659'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HVPS.dbc' with signals hash '8055781442263466255'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/ACU.dbc' with signals hash '-2328911173207265659'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/HVPS.dbc' with signals hash '8055781442263466255'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,429 INFO Found duplicate of 'HVPS_BattPack_Diagnostic' message
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\common_enums.dbc' with signals hash '5068668556854533767'
-2022-12-29 16:37:23,429 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HVPS.dbc' with signals hash '-4904442257607118899'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/common_enums.dbc' with signals hash '5068668556854533767'
+2022-12-29 16:37:23,429 INFO for 'D:/Projects/DBC Releases/HVPS.dbc' with signals hash '-4904442257607118899'
 2022-12-29 16:37:23,429 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoCommandDuty2' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-1931705558922656993'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6401690873268245351'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-1931705558922656993'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6401690873268245351'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusCurrent3' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '4915088277175493792'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '7415923249420589599'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '4915088277175493792'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '7415923249420589599'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusCurrent4' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3985840708789293518'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '6978509873739566300'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3985840708789293518'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '6978509873739566300'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusDuty2' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-9106606332029663415'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3251402637334206455'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-9106606332029663415'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3251402637334206455'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusFaultCount6' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '181086449921777131'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '6757075244942911613'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '181086449921777131'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '6757075244942911613'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusFaultCurrent3' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-9156494294874856693'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-4671416795041260277'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-9156494294874856693'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-4671416795041260277'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusFaultCurrent4' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '442923544065910395'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '6861789918647152075'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '442923544065910395'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '6861789918647152075'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusFaultVoltage6' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '3823898322700143462'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-3069041381098519448'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '3823898322700143462'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-3069041381098519448'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusInputVoltage6' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-5573752539163318805'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-1115789484260339126'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-5573752539163318805'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-1115789484260339126'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO Found duplicate of 'IoStatusPwmFrequency3' message
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '-6683306792796506560'
-2022-12-29 16:37:23,430 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-6204954170041167916'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '-6683306792796506560'
+2022-12-29 16:37:23,430 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-6204954170041167916'
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,430 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'IoStatusPwmFrequency4' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\IO_A_v4.dbc' with signals hash '-2458185368445470697'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_uio.dbc' with signals hash '1733804232610553079'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/IO_A_v4.dbc' with signals hash '-2458185368445470697'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/_uio.dbc' with signals hash '1733804232610553079'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'MirrorCMD' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Mirrors.dbc' with signals hash '2279557656742485549'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\DPad.dbc' with signals hash '-7290443648680858062'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/Mirrors.dbc' with signals hash '2279557656742485549'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/DPad.dbc' with signals hash '-7290443648680858062'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'Velocity' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '-4643177206522010605'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NAVconfig.dbc' with signals hash '-4073172193509723051'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '-4643177206522010605'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/NAVconfig.dbc' with signals hash '-4073172193509723051'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'RateVehicle' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '4043921802838398072'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NAVconfig.dbc' with signals hash '-6789005261332420256'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '4043921802838398072'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/NAVconfig.dbc' with signals hash '-6789005261332420256'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'CLU_ID6' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc' with signals hash '-4555421368443030950'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SC23S_general_customer.dbc' with signals hash '-4555421368443030950'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_OBC_v1.dbc' with signals hash '6676581596555750121'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/NTO__MANDO_CAN_SPEC_P.dbc' with signals hash '-4555421368443030950'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/SC23S_general_customer.dbc' with signals hash '-4555421368443030950'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/_OBC_v1.dbc' with signals hash '6676581596555750121'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'BRAKE5' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc' with signals hash '7538391731025696948'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_VAN_TPMS.dbc' with signals hash '3085452641561655193'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/NTO__MANDO_CAN_SPEC_P.dbc' with signals hash '7538391731025696948'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/_VAN_TPMS.dbc' with signals hash '3085452641561655193'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'BRAKE6' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc' with signals hash '4785885335850478319'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_VAN_TPMS.dbc' with signals hash '-8756987502404300482'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/NTO__MANDO_CAN_SPEC_P.dbc' with signals hash '4785885335850478319'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/_VAN_TPMS.dbc' with signals hash '-8756987502404300482'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'NM_ESP_RX' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Actia_eCall_CAN.dbc' with signals hash '4038303485040357119'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc' with signals hash '3332121473846429838'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/Actia_eCall_CAN.dbc' with signals hash '4038303485040357119'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/NTO__MANDO_CAN_SPEC_P.dbc' with signals hash '3332121473846429838'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'OVR_OBC_ACT_LIM' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_Arrival_OBC_v1.dbc' with signals hash '6676581596555750121'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Arrival_OBC_v1.dbc' with signals hash '-4856554461246670851'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/OVERRIDE__OBC_v1.dbc' with signals hash '6676581596555750121'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/_OBC_v1.dbc' with signals hash '-4856554461246670851'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,431 INFO Found duplicate of 'OVR_EPS_Steering_Wheel_Angle' message
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '-2475528128958836207'
-2022-12-29 16:37:23,431 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '4657803160883553246'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/OVERRIDE_Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '-2475528128958836207'
+2022-12-29 16:37:23,431 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '4657803160883553246'
 2022-12-29 16:37:23,431 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'OVR_EPS_Info' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '-7260129445308227404'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '2539576888018783923'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/OVERRIDE_Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '-7260129445308227404'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '2539576888018783923'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'OVR_BRAKE5' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '2269562508699665031'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\OVERRIDE_NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc' with signals hash '7538391731025696948'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '2269562508699665031'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/OVERRIDE_NTO__MANDO_CAN_SPEC_P.dbc' with signals hash '7538391731025696948'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'REAR_IO_1_ECU_CAN1_1' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_2_ECU.dbc' with signals hash '7484589658348548981'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_1_ECU.dbc' with signals hash '7484589658348548981'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/FRONT_IO_2_ECU.dbc' with signals hash '7484589658348548981'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/REAR_IO_1_ECU.dbc' with signals hash '7484589658348548981'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'REAR_IO_1_ECU_CAN1_2' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_1_ECU.dbc' with signals hash '939753004888967747'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc' with signals hash '939753004888967747'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_2_ECU.dbc' with signals hash '939753004888967747'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/REAR_IO_1_ECU.dbc' with signals hash '939753004888967747'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc' with signals hash '939753004888967747'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/REAR_IO_2_ECU.dbc' with signals hash '939753004888967747'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'REAR_IO_2_ECU_CAN1_1' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_1_ECU.dbc' with signals hash '2285728220783106500'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\FRONT_IO_1_ECU.dbc' with signals hash '2285728220783106500'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\REAR_IO_2_ECU.dbc' with signals hash '2285728220783106500'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/REAR_IO_1_ECU.dbc' with signals hash '2285728220783106500'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/FRONT_IO_1_ECU.dbc' with signals hash '2285728220783106500'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/REAR_IO_2_ECU.dbc' with signals hash '2285728220783106500'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'RMC_SBU_Request' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '1467351479795237552'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SBU_API.dbc' with signals hash '3777243481713736781'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '1467351479795237552'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/SBU_API.dbc' with signals hash '3777243481713736781'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'CLU_ID5' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\SC23S_general_customer.dbc' with signals hash '-4263069645429677053'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTO_ARRIVAL_MANDO_CAN_SPEC_P.dbc' with signals hash '-4263069645429677053'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/SC23S_general_customer.dbc' with signals hash '-4263069645429677053'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/NTO__MANDO_CAN_SPEC_P.dbc' with signals hash '-4263069645429677053'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'Request_from_Host' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\sim100_Test.dbc' with signals hash '948965022628524929'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\sim100.dbc' with signals hash '948965022628524929'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/sim100_Test.dbc' with signals hash '948965022628524929'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/sim100.dbc' with signals hash '948965022628524929'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'SIM100_Report' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\sim100_Test.dbc' with signals hash '-5347011787944288956'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\sim100.dbc' with signals hash '-9031797402427102196'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/sim100_Test.dbc' with signals hash '-5347011787944288956'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/sim100.dbc' with signals hash '-9031797402427102196'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,432 INFO Found duplicate of 'BattPack_Humidity' message
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ThermalSysINT.dbc' with signals hash '1613888350057193864'
-2022-12-29 16:37:23,432 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HVPS.dbc' with signals hash '7037805907510375904'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/ThermalSysINT.dbc' with signals hash '1613888350057193864'
+2022-12-29 16:37:23,432 INFO for 'D:/Projects/DBC Releases/HVPS.dbc' with signals hash '7037805907510375904'
 2022-12-29 16:37:23,432 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'Inv_Health_State' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\TMCUv1_telemetry.dbc' with signals hash '-2353510176608989959'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\HVPS.dbc' with signals hash '7037805907510375904'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/TMCUv1_telemetry.dbc' with signals hash '-2353510176608989959'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/HVPS.dbc' with signals hash '7037805907510375904'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'SDIMeas1_SensorFSL_0' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\USV_ECU.dbc' with signals hash '4775953886578803075'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc' with signals hash '-4720636851452128468'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/USV_ECU.dbc' with signals hash '4775953886578803075'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/ARS408_can_database.dbc' with signals hash '-4720636851452128468'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'SDIMeas1_SensorFSL_1' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\USV_ECU.dbc' with signals hash '1011115651756681687'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc' with signals hash '-7630362504193698648'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/USV_ECU.dbc' with signals hash '1011115651756681687'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/ARS408_can_database.dbc' with signals hash '-7630362504193698648'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'SDIMeas2_SensorFSL_FOL_0' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\USV_ECU.dbc' with signals hash '-8786912660209615532'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc' with signals hash '-7152105263951290621'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/USV_ECU.dbc' with signals hash '-8786912660209615532'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/ARS408_can_database.dbc' with signals hash '-7152105263951290621'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'SDIMeas2_SensorFSL_FOL_1' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\USV_ECU.dbc' with signals hash '-8344836827734471480'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc' with signals hash '2072347328032373855'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/USV_ECU.dbc' with signals hash '-8344836827734471480'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/ARS408_can_database.dbc' with signals hash '2072347328032373855'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'DebugState' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\USV_ECU.dbc' with signals hash '-3358616379927131868'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ARS408_can_database.dbc' with signals hash '8655492250630029038'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/USV_ECU.dbc' with signals hash '-3358616379927131868'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/ARS408_can_database.dbc' with signals hash '8655492250630029038'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'DebugWdgEcuTime' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '5221391669976788138'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\USV_ECU.dbc' with signals hash '-7960775524802994325'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/Chassis_CAN_v3.5_ModifiedInt.dbc' with signals hash '5221391669976788138'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/USV_ECU.dbc' with signals hash '-7960775524802994325'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'R1Compressor_Info' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\ACU_Arrival.dbc' with signals hash '-2328911173207265659'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VanThermal.dbc' with signals hash '7235263637055301741'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/ACU.dbc' with signals hash '-2328911173207265659'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/VanThermal.dbc' with signals hash '7235263637055301741'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'C1PTC_Info' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\common_enums.dbc' with signals hash '5068668556854533767'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VanThermal.dbc' with signals hash '4631655044603064968'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/common_enums.dbc' with signals hash '5068668556854533767'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/VanThermal.dbc' with signals hash '4631655044603064968'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO Found duplicate of 'Temperatures2' message
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\NTCDRV.dbc' with signals hash '-938949903246644956'
-2022-12-29 16:37:23,433 INFO for 'D:/Projects/Arrival/DBC Releases/Van_Gamma_DBC-0.8.0.4\VanThermal.dbc' with signals hash '1747865023500105154'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/NTCDRV.dbc' with signals hash '-938949903246644956'
+2022-12-29 16:37:23,433 INFO for 'D:/Projects/DBC Releases/VanThermal.dbc' with signals hash '1747865023500105154'
 2022-12-29 16:37:23,433 INFO 
 2022-12-29 16:37:23,433 INFO END DUPLICATE REPORT
 2022-12-29 16:37:23,434 INFO END DBCs CHECK.
