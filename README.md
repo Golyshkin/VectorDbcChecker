@@ -1,6 +1,6 @@
 # VectorDbcChecker
 
-VectorDBCChecker a Python written application for simple checking single or list of DBC files for:
+VectorDBCChecker a Python 3.10x written application for simple checking single or list of DBC files for:
 
 1. Messages duplication (in case of directory for checking was selected)
 2. Signals overlap in message
@@ -35,3 +35,5 @@ Actually the project has following external modules dependency
 2. Clone project according to github instructions
 3. Since project based on Python is not necessary to compile & link this project
 4. Run the application using conslole command: **py DbcCheckMain.py**
+
+PS. For those people who don't want to install the Python 3.10x, there is compiled EXE for WINDOWSx64 [located here](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/DbcCheckMain-windows64-exe.zip)
