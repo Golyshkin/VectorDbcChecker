@@ -23,4 +23,5 @@ The following projects files are responsible for:
 
 An application screenshot is following
 
-![](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/vectordbcchecker-screenshot.png)
+![](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/vectordbcchecker-screenshot.png#2)
+
