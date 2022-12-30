@@ -19,9 +19,19 @@ The following projects files are responsible for:
 6. **DbcCheckUiSettings.py** - GUI application settings
 7. **DbcDuplicatesChecker.py** - DBC messages duplication checker
 8. **DbcNodesChecker.py** - DBC missed network nodes checker
-9. **examples/dbc-check.log** - an example of applicaton output for selected directory with some DBC files
+9. **DbcBaseChecker.py** - DBC base checker
+10. **examples/dbc-check.log** - an example of applicaton output for selected directory with some DBC files
 
 An application screenshot is following
 
-![](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/vectordbcchecker-screenshot.png#2)
+![](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/vectordbcchecker-screenshot.png#3)
 
+An application output log is [available here](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/dbc-check.log)
+
+# Build instructions
+
+Actually the project has following external modules dependency
+1. **cantools** - need to install this module before starting a GUI application
+2. Clone project according to github instructions
+3. Since project based on Python is not necessary to compile & link this project
+4. Run the application using conslole command: **py DbcCheckMain.py**
