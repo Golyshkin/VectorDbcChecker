@@ -10,11 +10,12 @@ class DbcAppSettings:
         self.frame.minsize( 300, 200 )
         self.frame.geometry( DbcCheckConfig.APP_WIN_SIZE_SETTINGS )
         self.frame.title( DbcCheckConfig.APP_TITLE + " Settings" )
-        self.frame.rowconfigure( 4, weight=1 )
+        self.frame.rowconfigure( 5, weight=1 )
         self.isIgnoreMsgDupWithSameSignalsValue = BooleanVar( value=DbcCheckConfig.CONF_IGNORE_MSG_DUP_WITH_SAME_SIGNALS )
         self.isCheckOverlapSignalsValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_OVERLAP_SIGNALS )
         self.isCheckMissedNetworkNodesValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_MISSED_NETWORK_NODES )
         self.isCheckMsgDuplicationValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_MSG_DUPLICATION )
+        self.isCheckDbVersionValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_DB_VERSION )
 
     def configureUi( self ) -> None:
         self.checkMsgDuplicationCheckBox = Checkbutton( master=self.frame, text="Check Messages Duplication", variable=self.isCheckMsgDuplicationValue, command=self.onSettingsChange )
@@ -29,16 +30,20 @@ class DbcAppSettings:
         self.checkMissedNetworkNodesCheckBox = Checkbutton( master=self.frame, text="Check Missed Network Nodes", variable=self.isCheckMissedNetworkNodesValue, command=self.onSettingsChange )
         self.checkMissedNetworkNodesCheckBox.grid( row=3, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
+        self.checkDbVersionCheckBox = Checkbutton( master=self.frame, text="Check Missed Database version", variable=self.isCheckDbVersionValue, command=self.onSettingsChange )
+        self.checkDbVersionCheckBox.grid( row=4, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
+
         self.applyButton = Button( master=self.frame, text="Apply", command=lambda: self.onApplySettings() )
-        self.applyButton.grid( row=4, column=0, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="ES" )
+        self.applyButton.grid( row=5, column=0, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="ES" )
         self.closeButton = Button( master=self.frame, text="Close", command=lambda: self.frame.destroy() )
-        self.closeButton.grid( row=4, column=1, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="WS" )
+        self.closeButton.grid( row=5, column=1, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="WS" )
 
     def onSettingsChange( self ) -> None:
         DbcCheckConfig.CONF_IGNORE_MSG_DUP_WITH_SAME_SIGNALS = self.isIgnoreMsgDupWithSameSignalsValue.get()
         DbcCheckConfig.CONF_CHECK_OVERLAP_SIGNALS = self.isCheckOverlapSignalsValue.get()
         DbcCheckConfig.CONF_CHECK_MISSED_NETWORK_NODES = self.isCheckMissedNetworkNodesValue.get()
         DbcCheckConfig.CONF_CHECK_MSG_DUPLICATION = self.isCheckMsgDuplicationValue.get()
+        DbcCheckConfig.isCheckDbVersionValue = self.isCheckDbVersionValue.get()
 
     def onApplySettings( self ) -> None:
         # Do nothing all things are applied automatically now

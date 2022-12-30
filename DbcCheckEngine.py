@@ -3,11 +3,12 @@ import os
 import cantools as can
 
 import DbcCheckConfig
+from DbcBaseChecker import DbcBaseChecker
 from DbcCheckerInterface import *
 
 class DbcCheckEngine:
     DBC_EXT = "dbc"
-    __checkersList: set[ DbcCheckerInterface ] = set()
+    __checkersList: set[ DbcCheckerInterface ] = { DbcBaseChecker() }
 
     def __init__( self, startPath, outputCallback, finishCallback ):
         self.startPath = startPath
@@ -32,6 +33,7 @@ class DbcCheckEngine:
         :return: void
         """
         DbcCheckEngine.__checkersList.clear()
+        DbcCheckEngine.addChecker( DbcBaseChecker() )
 
     @property
     def getStartFolder( self ) -> str:
@@ -43,6 +45,9 @@ class DbcCheckEngine:
 
         :return: void
         """
+        for checker in DbcCheckEngine.__checkersList:
+            checker.onStart()
+
         if os.path.isdir( self.startPath ):
             for r, d, f in os.walk( self.startPath ):
                 for file in f:

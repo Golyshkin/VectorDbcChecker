@@ -2,8 +2,10 @@ from DbcCheckEngine import *
 from DbcCheckerInterface import *
 
 class DbcCheckDuplicates( DbcCheckerInterface ):
-    _messagesDict = dict()
-    _duplicatesInfoDict = dict()
+
+    def __init__( self ):
+        self._messagesDict = dict()
+        self._duplicatesInfoDict = dict()
 
     def processDbcFile( self, aDataBase: candb.Database, aDbcPath: str ):
         for message in aDataBase.messages:
@@ -18,6 +20,9 @@ class DbcCheckDuplicates( DbcCheckerInterface ):
                 self._messagesDict[ message.frame_id ] = dict()
                 self._messagesDict[ message.frame_id ][ "path" ] = aDbcPath
                 self._messagesDict[ message.frame_id ][ "hash" ] = message.signals.__str__().__hash__()
+
+    def onStart( self ):
+        DbcCheckConfig.LOGGER.info( "DBC Duplicator Checker Registered." )
 
     def onFinish( self ):
         self.printReport()
