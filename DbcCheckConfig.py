@@ -15,5 +15,5 @@ CONF_LOG_FILE_NAME: str = "dbc-check.log"
 CONF_PAD_DX: int = 5
 CONF_PAD_DY: int = 5
 
-logging.basicConfig( level=logging.INFO, filename=CONF_LOG_FILE_NAME, filemode="w", format="%(asctime)s %(levelname)s %(message)s" )
+logging.basicConfig( level=logging.INFO, filename=CONF_LOG_FILE_NAME, filemode="w", format="%(asctime)s %(levelname)s: %(message)s" )
 LOGGER = logging.getLogger( __name__ )
