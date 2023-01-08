@@ -12,3 +12,12 @@ class DbcNodesChecker( DbcCheckerInterface ):
 
     def onFinish( self ):
         pass
+
+    def processMessage( self, aMessage: Message ) -> None:
+        pass
+
+    def processSignal( self, aSignal: Signal ) -> None:
+        pass
+
+    def printReport( self ) -> None:
+        pass

@@ -1,34 +1,27 @@
+from pathlib import Path
+
 from DbcCheckEngine import *
 from DbcCheckerInterface import *
 
-class DbcCheckDuplicates( DbcCheckerInterface ):
+class DbcMsgDuplicatesChecker( DbcCheckerInterface ):
 
     def __init__( self ):
         self._messagesDict = dict()
         self._duplicatesInfoDict = dict()
+        self._dbcPath: str = "N/A"
 
     def processDbcFile( self, aDataBase: candb.Database, aDbcPath: str ):
-        for message in aDataBase.messages:
-            if message.frame_id in self._messagesDict:
-                try:
-                    self._duplicatesInfoDict[ message.name ]
-                except KeyError:
-                    self._duplicatesInfoDict[ message.name ] = set()
-                self._duplicatesInfoDict[ message.name ].add( (aDbcPath, message.signals.__str__().__hash__()) )
-                self._duplicatesInfoDict[ message.name ].add( (self._messagesDict[ message.frame_id ][ "path" ], self._messagesDict[ message.frame_id ][ "hash" ]) )
-            else:
-                self._messagesDict[ message.frame_id ] = dict()
-                self._messagesDict[ message.frame_id ][ "path" ] = aDbcPath
-                self._messagesDict[ message.frame_id ][ "hash" ] = message.signals.__str__().__hash__()
+        self._dbcPath = Path( aDbcPath ).absolute()
 
     def onStart( self ):
-        DbcCheckConfig.LOGGER.info( "DBC Duplicator Checker Registered." )
+        DbcCheckConfig.LOGGER.info( "DBC Messages Duplicate Checker Registered." )
 
     def onFinish( self ):
         self.printReport()
 
     def printReport( self ):
-        DbcCheckConfig.LOGGER.info( "START DUPLICATE REPORT" )
+        DbcCheckConfig.LOGGER.info( "" )
+        DbcCheckConfig.LOGGER.info( "START MESSAGES DUPLICATE REPORT" )
 
         if len( self._duplicatesInfoDict ):
             for key in self._duplicatesInfoDict:
@@ -47,7 +40,22 @@ class DbcCheckDuplicates( DbcCheckerInterface ):
                     DbcCheckConfig.LOGGER.info( "Found duplicate of '{}' message".format( key ) )
                     for msgInfo in self._duplicatesInfoDict[ key ]:
                         DbcCheckConfig.LOGGER.info( "for '{0}' with signals hash '{1}'".format( msgInfo[ 0 ], msgInfo[ 1 ] ) )
-                    DbcCheckConfig.LOGGER.info( "" )
         else:
             DbcCheckConfig.LOGGER.info( "No duplicates found." )
-        DbcCheckConfig.LOGGER.info( "END DUPLICATE REPORT" )
+        DbcCheckConfig.LOGGER.info( "END MESSAGES DUPLICATE REPORT" )
+
+    def processMessage( self, aMessage: Message ) -> None:
+        if aMessage.frame_id in self._messagesDict:
+            try:
+                self._duplicatesInfoDict[ aMessage.name ]
+            except KeyError:
+                self._duplicatesInfoDict[ aMessage.name ] = set()
+            self._duplicatesInfoDict[ aMessage.name ].add( (self._dbcPath, aMessage.signals.__str__().__hash__()) )
+            self._duplicatesInfoDict[ aMessage.name ].add( (self._messagesDict[ aMessage.frame_id ][ "path" ], self._messagesDict[ aMessage.frame_id ][ "hash" ]) )
+        else:
+            self._messagesDict[ aMessage.frame_id ] = dict()
+            self._messagesDict[ aMessage.frame_id ][ "path" ] = self._dbcPath
+            self._messagesDict[ aMessage.frame_id ][ "hash" ] = aMessage.signals.__str__().__hash__()
+
+    def processSignal( self, aSignal: Signal ) -> None:
+        pass

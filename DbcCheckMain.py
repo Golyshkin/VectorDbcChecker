@@ -1,8 +1,9 @@
 import threading
 
 from DbcCheckUiApplication import *
-from DbcDuplicatesChecker import *
+from DbcMsgDuplicatesChecker import *
 from DbcNodesChecker import *
+from DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
 
 def onStartCheckCallback( selectedPath: str ):
     thread = threading.Thread( target=startDBCCheckThread, args=[ selectedPath ] )
@@ -18,7 +19,10 @@ def startDBCCheckThread( selectedPath: str ):
         dbcCheckEngine.addChecker( DbcNodesChecker() )
 
     if DbcCheckConfig.CONF_CHECK_MSG_DUPLICATION:
-        dbcCheckEngine.addChecker( DbcCheckDuplicates() )
+        dbcCheckEngine.addChecker( DbcMsgDuplicatesChecker() )
+
+    if DbcCheckConfig.CONF_CHECK_SIG_SPN_DUPLICATION:
+        dbcCheckEngine.addChecker( DbcSigDuplicatesChecker() )
 
     dbcCheckEngine.startCheck()
 

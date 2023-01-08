@@ -78,3 +78,11 @@ class DbcCheckEngine:
 
         for checker in DbcCheckEngine.__checkersList:
             checker.processDbcFile( db, aFilePath )
+
+        for message in db.messages:
+            for checker in DbcCheckEngine.__checkersList:
+                checker.processMessage( message )
+
+            for signal in message.signals:
+                for checker in DbcCheckEngine.__checkersList:
+                    checker.processSignal( signal )
