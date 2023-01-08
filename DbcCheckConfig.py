@@ -15,6 +15,8 @@ CONF_CHECK_DB_VERSION: bool = True
 CONF_LOG_FILE_NAME: str = "dbc-check.log"
 CONF_PAD_DX: int = 5
 CONF_PAD_DY: int = 5
+# By default, is expected an Intel byte order in signals
+SIGNAL_BYTE_ORDER: str = "little_endian"
 
 logging.basicConfig( level=logging.INFO, filename=CONF_LOG_FILE_NAME, filemode="w", format="%(asctime)s %(levelname)s: %(message)s" )
 LOGGER = logging.getLogger( __name__ )

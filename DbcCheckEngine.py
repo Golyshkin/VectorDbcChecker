@@ -5,6 +5,7 @@ import cantools as can
 import DbcCheckConfig
 from DbcBaseChecker import DbcBaseChecker
 from DbcCheckerInterface import *
+from DbcSigByteOrderChecker import DbcSigByteOrderChecker
 
 class DbcCheckEngine:
     DBC_EXT = "dbc"
@@ -34,6 +35,7 @@ class DbcCheckEngine:
         """
         DbcCheckEngine.__checkersList.clear()
         DbcCheckEngine.addChecker( DbcBaseChecker() )
+        DbcCheckEngine.addChecker( DbcSigByteOrderChecker() )
 
     @property
     def getStartFolder( self ) -> str:
