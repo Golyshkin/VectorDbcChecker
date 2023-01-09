@@ -31,7 +31,7 @@ class DbcSigDuplicatesChecker( DbcCheckerInterface ):
         if not isSpnDuplicationFound:
             DbcCheckConfig.LOGGER.info( "No duplicates found." )
 
-        DbcCheckConfig.LOGGER.info( "START SIGNALS DUPLICATE REPORT" )
+        DbcCheckConfig.LOGGER.info( "END SIGNALS DUPLICATE REPORT" )
 
     def onFinish( self ) -> None:
         self.printReport()
