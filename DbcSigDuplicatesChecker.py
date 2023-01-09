@@ -1,25 +1,24 @@
 from pathlib import Path
 
+import DbcCheckConfig
 from DbcCheckerInterface import *
-from VectorDbcChecker import DbcCheckConfig
 
 class DbcSigDuplicatesChecker( DbcCheckerInterface ):
 
     def __init__( self ):
-        self._signalsDict = dict()
-        self._duplicatesInfoDict = dict()
-        self._dbcPath: str = "N/A"
-        self._currentMsg: Message = "N/A"
+        self.__signalsDict = dict()
+        self.__dbcPath: str = "N/A"
+        self.__currentMsg: str = "N/A"
 
     def processDbcFile( self, aDataBase: candb.Database, aDbcPath: str ) -> None:
-        self._dbcPath = Path( aDbcPath ).absolute()
+        self.__dbcPath = Path( aDbcPath ).absolute()
 
     def printReport( self ) -> None:
         DbcCheckConfig.LOGGER.info( "" )
         DbcCheckConfig.LOGGER.info( "START SIGNALS DUPLICATE REPORT" )
         isSpnDuplicationFound: bool = False
 
-        for spn, infoDict in self._signalsDict.items():
+        for spn, infoDict in self.__signalsDict.items():
             if len( infoDict ) > 1:
                 isSpnDuplicationFound = True
                 DbcCheckConfig.LOGGER.info( "" )
@@ -41,16 +40,16 @@ class DbcSigDuplicatesChecker( DbcCheckerInterface ):
         DbcCheckConfig.LOGGER.info( "DBC Signals Duplicate Checker Registered." )
 
     def processMessage( self, aMessage: Message ) -> None:
-        self._currentMsg = aMessage.name
+        self.__currentMsg = aMessage.name
 
     def processSignal( self, aSignal: Signal ) -> None:
         if aSignal.spn is not None:
             try:
-                self._signalsDict[ aSignal.spn ]
+                self.__signalsDict[ aSignal.spn ]
             except KeyError:
-                self._signalsDict[ aSignal.spn ] = dict()
+                self.__signalsDict[ aSignal.spn ] = dict()
 
-            if self._dbcPath not in self._signalsDict[ aSignal.spn ].keys():
-                self._signalsDict[ aSignal.spn ][ self._dbcPath ] = list()
+            if self.__dbcPath not in self.__signalsDict[ aSignal.spn ].keys():
+                self.__signalsDict[ aSignal.spn ][ self.__dbcPath ] = list()
 
-            self._signalsDict[ aSignal.spn ][ self._dbcPath ].append( str.format( "{}->{}", self._currentMsg, aSignal.name ) )
+            self.__signalsDict[ aSignal.spn ][ self.__dbcPath ].append( str.format( "{}->{}", self.__currentMsg, aSignal.name ) )

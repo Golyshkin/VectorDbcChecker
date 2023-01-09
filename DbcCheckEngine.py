@@ -34,6 +34,14 @@ class DbcCheckEngine:
         :return: void
         """
         DbcCheckEngine.__checkersList.clear()
+        DbcCheckEngine.__addDefaultCheckers()
+
+    @staticmethod
+    def __addDefaultCheckers() -> None:
+        """
+        Add default checkers to engine
+        :return: void
+        """
         DbcCheckEngine.addChecker( DbcBaseChecker() )
         DbcCheckEngine.addChecker( DbcSigByteOrderChecker() )
 
@@ -55,16 +63,16 @@ class DbcCheckEngine:
                 for file in f:
                     file = str( file )
                     if file.lower().endswith( "." + self.DBC_EXT ):
-                        self.processSingleFile( os.path.join( r, file ) )
+                        self.__processSingleFile( os.path.join( r, file ) )
         else:
-            self.processSingleFile( self.startPath )
+            self.__processSingleFile( self.startPath )
 
         for checker in DbcCheckEngine.__checkersList:
             checker.onFinish()
 
         self.finishCallback()
 
-    def processSingleFile( self, aFilePath: str ) -> None:
+    def __processSingleFile( self, aFilePath: str ) -> None:
         """
         Process a single DBC file
         :param aFilePath: a full path to file which need to be processed

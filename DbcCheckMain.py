@@ -5,15 +5,15 @@ from DbcMsgDuplicatesChecker import *
 from DbcNodesChecker import *
 from DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
 
-def onStartCheckCallback( selectedPath: str ):
-    thread = threading.Thread( target=startDBCCheckThread, args=[ selectedPath ] )
+def onStartCheckCallback( aSelectedPath: str ):
+    thread = threading.Thread( target=startDBCCheckThread, args=[ aSelectedPath ] )
     thread.start()
 
-def startDBCCheckThread( selectedPath: str ):
-    DbcCheckConfig.LOGGER.info( "START DBCs CHECK." )
+def startDBCCheckThread( aSelectedPath: str ):
+    DbcCheckConfig.LOGGER.info( str.format( "START DBCs CHECK v.{} FOR [{}].", DbcCheckConfig.APP_VER, aSelectedPath ) )
 
     DbcCheckEngine.clearCheckers()
-    dbcCheckEngine: DbcCheckEngine = DbcCheckEngine( selectedPath, outputCallback, finishCallback )
+    dbcCheckEngine: DbcCheckEngine = DbcCheckEngine( aSelectedPath, outputCallback, finishCallback )
 
     if DbcCheckConfig.CONF_CHECK_MISSED_NETWORK_NODES:
         dbcCheckEngine.addChecker( DbcNodesChecker() )

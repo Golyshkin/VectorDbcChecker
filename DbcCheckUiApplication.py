@@ -70,6 +70,11 @@ class DbcCheckUiApplication( Object ):
         self.output = scrolledtext.ScrolledText( self.rootFrame )
         self.output.grid( row=3, column=0, sticky="NEWS", padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY )
 
+    def configureStatusBar( self ):
+        versionText = StringVar( value=str.format( "v.{}", DbcCheckConfig.APP_VER ) )
+        self.statusBarLabel = Label( master=self.rootFrame, anchor="w", textvariable=versionText )
+        self.statusBarLabel.grid( row=4, column=0, columnspan=4, sticky="E", padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY )
+
     def onStartCheckClick( self ):
         if len( self.directoryInput.get() ) > 0:
             if os.path.exists( self.directoryInput.get() ):
@@ -114,6 +119,7 @@ class DbcCheckUiApplication( Object ):
         self.configureInputs()
         self.configureButtons()
         self.configureOutput()
+        self.configureStatusBar()
 
     def showUI( self ):
         self.configureUi()

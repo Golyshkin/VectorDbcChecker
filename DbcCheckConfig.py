@@ -1,6 +1,7 @@
 # Configuration file for Vector DBCChecker
 import logging
 
+APP_VER: float = 1.1
 APP_TITLE: str = "Vector DBCChecker Application"
 APP_ABOUT_INFO: str = "This is application checks a vector based DBC files on consistency and messages duplicates.\n\n(c) Alexander.Golyshkin 2022"
 APP_WIN_SIZE_APP: str = "800x600"

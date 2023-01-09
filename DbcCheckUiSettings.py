@@ -44,10 +44,10 @@ class DbcAppSettings:
         self.signalByteOrderLabel = Label( master=radioFrame, text="Expected Signal Byte Order" )
         self.signalByteOrderLabel.grid( row=0, column=0, columnspan=2, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
-        self.radioByteOrderBigEndian = Radiobutton( master=radioFrame, value="big_endian", text="Big Endian", variable=self.signalByteOrder, command=self.onSettingsChange )
+        self.radioByteOrderBigEndian = Radiobutton( master=radioFrame, value="big_endian", text="Moto (Big Endian)", variable=self.signalByteOrder, command=self.onSettingsChange )
         self.radioByteOrderBigEndian.grid( row=1, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
-        self.radioByteOrderLittleEndian = Radiobutton( master=radioFrame, value="little_endian", text="Little Endian", variable=self.signalByteOrder, command=self.onSettingsChange )
+        self.radioByteOrderLittleEndian = Radiobutton( master=radioFrame, value="little_endian", text="Intel (Little Endian)", variable=self.signalByteOrder, command=self.onSettingsChange )
         self.radioByteOrderLittleEndian.grid( row=1, column=1, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
         self.applyButton = Button( master=self.frame, text="Apply", command=lambda: self.onApplySettings() )
