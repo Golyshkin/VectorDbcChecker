@@ -10,12 +10,13 @@ from DbcSigByteOrderChecker import DbcSigByteOrderChecker
 
 class DbcCheckEngine:
     DBC_EXT = "dbc"
-    __checkersList: set[ DbcCheckerInterface ] = { DbcBaseChecker() }
+    __checkersList: set[ DbcCheckerInterface ] = set()
 
     def __init__( self, startPath, outputCallback, finishCallback ):
-        self.startPath = startPath
-        self.outputCallback = outputCallback
-        self.finishCallback = finishCallback
+        self.__startPath = startPath
+        self.__outputCallback = outputCallback
+        self.__finishCallback = finishCallback
+        DbcCheckEngine.__addDefaultCheckers()
 
     @staticmethod
     def addChecker( aChecker: DbcCheckerInterface ) -> None:
@@ -48,7 +49,7 @@ class DbcCheckEngine:
 
     @property
     def getStartFolder( self ) -> str:
-        return self.startPath
+        return self.__startPath
 
     def startCheck( self ):
         """
@@ -59,19 +60,19 @@ class DbcCheckEngine:
         for checker in DbcCheckEngine.__checkersList:
             checker.onStart()
 
-        if os.path.isdir( self.startPath ):
-            for r, d, f in os.walk( self.startPath ):
+        if os.path.isdir( self.__startPath ):
+            for r, d, f in os.walk( self.__startPath ):
                 for file in f:
                     file = str( file )
                     if file.lower().endswith( "." + self.DBC_EXT ):
                         self.__processSingleFile( os.path.join( r, file ) )
         else:
-            self.__processSingleFile( self.startPath )
+            self.__processSingleFile( self.__startPath )
 
         for checker in DbcCheckEngine.__checkersList:
             checker.onFinish()
 
-        self.finishCallback()
+        self.__finishCallback()
 
     def __processSingleFile( self, aFilePath: str ) -> None:
         """
@@ -80,7 +81,7 @@ class DbcCheckEngine:
 
         :return: void
         """
-        self.outputCallback( "Processed '{}'".format( Path( aFilePath ).absolute() ) )
+        self.__outputCallback( "Processed '{}'".format( Path( aFilePath ).absolute() ) )
         try:
             db = can.db.load_file( aFilePath, strict=DbcCheckConfig.CONF_CHECK_OVERLAP_SIGNALS )
         except Exception as e:
