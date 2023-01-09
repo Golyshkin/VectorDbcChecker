@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import cantools as can
 
@@ -79,7 +80,7 @@ class DbcCheckEngine:
 
         :return: void
         """
-        self.outputCallback( "Processed '{}'".format( aFilePath ) )
+        self.outputCallback( "Processed '{}'".format( Path( aFilePath ).absolute() ) )
         try:
             db = can.db.load_file( aFilePath, strict=DbcCheckConfig.CONF_CHECK_OVERLAP_SIGNALS )
         except Exception as e:
