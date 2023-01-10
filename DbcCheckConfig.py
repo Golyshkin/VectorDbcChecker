@@ -4,8 +4,10 @@ import logging
 APP_VER: float = 1.1
 APP_TITLE: str = "Vector DBCChecker Application"
 APP_ABOUT_INFO: str = "This is application checks a vector based DBC files on consistency and messages duplicates.\n\n(c) Alexander.Golyshkin 2022"
-APP_WIN_SIZE_APP: str = "800x600"
-APP_WIN_SIZE_SETTINGS: str = "400x240"
+APP_WIN_SIZE_APP_WIDTH: int = 800
+APP_WIN_SIZE_APP_HEIGHT: int = 600
+APP_WIN_SIZE_SETTINGS_WIDTH: int = 380
+APP_WIN_SIZE_SETTINGS_HEIGHT: int = 250
 
 CONF_CHECK_MSG_DUPLICATION: bool = True
 CONF_CHECK_SIG_SPN_DUPLICATION: bool = True

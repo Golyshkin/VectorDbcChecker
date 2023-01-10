@@ -31,6 +31,8 @@ def outputCallback( textOutput ):
 
 def finishCallback():
     DbcCheckConfig.LOGGER.info( "END DBCs CHECK." )
+    DbcCheckConfig.LOGGER.info( "--" )
+
     ui.onFinish()
 
 if __name__ == '__main__':

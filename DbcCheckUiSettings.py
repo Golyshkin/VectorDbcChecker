@@ -1,14 +1,14 @@
 from tkinter import *
 
 import DbcCheckConfig
+from DbcCheckUtils import *
 
 class DbcAppSettings:
 
     def __init__( self, aRoot: Tk ):
         self.rootFrame = aRoot
         self.frame = Toplevel( aRoot )
-        self.frame.minsize( 300, 200 )
-        self.frame.geometry( DbcCheckConfig.APP_WIN_SIZE_SETTINGS )
+        self.frame.minsize( DbcCheckConfig.APP_WIN_SIZE_SETTINGS_WIDTH, DbcCheckConfig.APP_WIN_SIZE_SETTINGS_HEIGHT )
         self.frame.title( DbcCheckConfig.APP_TITLE + " Settings" )
         self.frame.rowconfigure( 7, weight=1 )
         self.isIgnoreMsgDupWithSameSignalsValue = BooleanVar( value=DbcCheckConfig.CONF_IGNORE_MSG_DUP_WITH_SAME_SIGNALS )
@@ -26,17 +26,17 @@ class DbcAppSettings:
         self.checkMsgDuplicationCheckBox = Checkbutton( master=self.frame, text="Check Signals SPN Duplication", variable=self.isCheckSigSpnDuplicationValue, command=self.onSettingsChange )
         self.checkMsgDuplicationCheckBox.grid( row=1, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
-        self.ignoreMsgDupWithSameSignalsCheckBox = Checkbutton( master=self.frame, text="Ignore Messages Duplication for the Same Signals", variable=self.isIgnoreMsgDupWithSameSignalsValue, command=self.onSettingsChange )
-        self.ignoreMsgDupWithSameSignalsCheckBox.grid( row=2, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
-
-        self.checkOverlapSignalsCheckBox = Checkbutton( master=self.frame, text="Check Overlap Signals in Messages", variable=self.isCheckOverlapSignalsValue, command=self.onSettingsChange )
-        self.checkOverlapSignalsCheckBox.grid( row=3, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
+        self.checkOverlapSignalsCheckBox = Checkbutton( master=self.frame, fg="darkred", text="Check Overlap Signals in Messages (Stop DBC Check on Error)", variable=self.isCheckOverlapSignalsValue, command=self.onSettingsChange )
+        self.checkOverlapSignalsCheckBox.grid( row=2, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
         self.checkMissedNetworkNodesCheckBox = Checkbutton( master=self.frame, text="Check Missed Network Nodes", variable=self.isCheckMissedNetworkNodesValue, command=self.onSettingsChange )
-        self.checkMissedNetworkNodesCheckBox.grid( row=4, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
+        self.checkMissedNetworkNodesCheckBox.grid( row=3, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
         self.checkDbVersionCheckBox = Checkbutton( master=self.frame, text="Check Missed Database version", variable=self.isCheckDbVersionValue, command=self.onSettingsChange )
-        self.checkDbVersionCheckBox.grid( row=5, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
+        self.checkDbVersionCheckBox.grid( row=4, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
+
+        self.ignoreMsgDupWithSameSignalsCheckBox = Checkbutton( master=self.frame, text="Ignore Messages Duplication for the Same Signals", variable=self.isIgnoreMsgDupWithSameSignalsValue, command=self.onSettingsChange )
+        self.ignoreMsgDupWithSameSignalsCheckBox.grid( row=5, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
         radioFrame = Frame( self.frame )
         radioFrame.grid( sticky="NEWS" )
@@ -50,10 +50,13 @@ class DbcAppSettings:
         self.radioByteOrderLittleEndian = Radiobutton( master=radioFrame, value="little_endian", text="Intel (Little Endian)", variable=self.signalByteOrder, command=self.onSettingsChange )
         self.radioByteOrderLittleEndian.grid( row=1, column=1, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
-        self.applyButton = Button( master=self.frame, text="Apply", command=lambda: self.onApplySettings() )
-        self.applyButton.grid( row=7, column=2, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="ES" )
-        self.closeButton = Button( master=self.frame, text="Close", command=lambda: self.frame.destroy() )
-        self.closeButton.grid( row=7, column=3, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="WS" )
+        buttonsFrame = Frame( self.frame )
+        buttonsFrame.grid( sticky="NES", pady=10 )
+
+        self.applyButton = Button( master=buttonsFrame, text="Apply", command=lambda: self.onApplySettings() )
+        self.applyButton.grid( row=0, column=0, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="ES" )
+        self.closeButton = Button( master=buttonsFrame, text="Close", command=lambda: self.frame.destroy() )
+        self.closeButton.grid( row=0, column=1, padx=DbcCheckConfig.CONF_PAD_DX, pady=DbcCheckConfig.CONF_PAD_DY, sticky="WS" )
 
     def onSettingsChange( self ) -> None:
         DbcCheckConfig.CONF_IGNORE_MSG_DUP_WITH_SAME_SIGNALS = self.isIgnoreMsgDupWithSameSignalsValue.get()
@@ -70,6 +73,7 @@ class DbcAppSettings:
 
     def showUi( self ) -> None:
         self.configureUi()
+        centerWindow( self.frame, DbcCheckConfig.APP_WIN_SIZE_SETTINGS_WIDTH, DbcCheckConfig.APP_WIN_SIZE_SETTINGS_HEIGHT )
 
     def destroy( self ) -> None:
         self.frame.destroy()

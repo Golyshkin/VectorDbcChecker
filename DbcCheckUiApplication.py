@@ -11,6 +11,7 @@ from pywin.mfc.object import Object
 
 import DbcCheckConfig
 import DbcCheckUiSettings
+from DbcCheckUtils import *
 
 class DbcCheckUiApplication( Object ):
     def __del__( self ):
@@ -33,8 +34,7 @@ class DbcCheckUiApplication( Object ):
         self.rootFrame.title( DbcCheckConfig.APP_TITLE )
         self.rootFrame.rowconfigure( 3, weight=1 )
         self.rootFrame.columnconfigure( 0, weight=1 )
-        self.rootFrame.minsize( width=640, height=480 )
-        self.rootFrame.geometry( DbcCheckConfig.APP_WIN_SIZE_APP )
+        self.rootFrame.minsize( width=DbcCheckConfig.APP_WIN_SIZE_APP_WIDTH, height=DbcCheckConfig.APP_WIN_SIZE_APP_HEIGHT )
 
     def configureMenu( self ):
         # File menu
@@ -124,6 +124,7 @@ class DbcCheckUiApplication( Object ):
     def showUI( self ):
         self.configureUi()
         self.rootFrame.config( menu=self.menu )
+        centerWindow( self.rootFrame, DbcCheckConfig.APP_WIN_SIZE_APP_WIDTH, DbcCheckConfig.APP_WIN_SIZE_APP_HEIGHT )
         self.rootFrame.mainloop()
 
     def insertOutput( self, text ):
