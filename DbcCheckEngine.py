@@ -16,7 +16,7 @@ class DbcCheckEngine:
         self.__startPath = startPath
         self.__outputCallback = outputCallback
         self.__finishCallback = finishCallback
-        DbcCheckEngine.__addDefaultCheckers()
+        DbcCheckEngine.clearCheckers()
 
     @staticmethod
     def addChecker( aChecker: DbcCheckerInterface ) -> None:
