@@ -9,9 +9,9 @@ from typing import cast
 
 from pywin.mfc.object import Object
 
-import DbcCheckConfig
-import DbcCheckUiSettings
-from DbcCheckUtils import *
+from common import DbcCheckConfig
+from common.DbcCheckUtils import *
+from ui import DbcCheckUiSettings
 
 class DbcCheckUiApplication( Object ):
     def __del__( self ):

@@ -1,7 +1,5 @@
-from pathlib import Path
-
-from DbcCheckEngine import *
-from DbcCheckerInterface import *
+from common.DbcCheckEngine import *
+from interfaces.DbcCheckerInterface import *
 
 class DbcMsgDuplicatesChecker( DbcCheckerInterface ):
 

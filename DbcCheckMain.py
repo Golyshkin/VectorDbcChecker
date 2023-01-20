@@ -1,9 +1,9 @@
 import threading
 
-from DbcCheckUiApplication import *
-from DbcMsgDuplicatesChecker import *
-from DbcNodesChecker import *
-from DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
+from ui.DbcCheckUiApplication import *
+from VectorDbcChecker.checkers.DbcMsgDuplicatesChecker import *
+from VectorDbcChecker.checkers.DbcNodesChecker import *
+from VectorDbcChecker.checkers.DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
 
 def onStartCheckCallback( aSelectedPath: str ):
     thread = threading.Thread( target=startDBCCheckThread, args=[ aSelectedPath ] )
@@ -12,7 +12,7 @@ def onStartCheckCallback( aSelectedPath: str ):
 def startDBCCheckThread( aSelectedPath: str ):
     DbcCheckConfig.LOGGER.info( str.format( "START DBCs CHECK v.{} FOR [{}].", DbcCheckConfig.APP_VER, aSelectedPath ) )
 
-    DbcCheckEngine.clearCheckers()
+    DbcCheckEngine.initCheckers()
     dbcCheckEngine: DbcCheckEngine = DbcCheckEngine( aSelectedPath, outputCallback, finishCallback )
 
     if DbcCheckConfig.CONF_CHECK_MISSED_NETWORK_NODES:

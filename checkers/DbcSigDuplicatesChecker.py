@@ -1,7 +1,7 @@
 from pathlib import Path
 
-import DbcCheckConfig
-from DbcCheckerInterface import *
+from common import DbcCheckConfig
+from interfaces.DbcCheckerInterface import *
 
 class DbcSigDuplicatesChecker( DbcCheckerInterface ):
 

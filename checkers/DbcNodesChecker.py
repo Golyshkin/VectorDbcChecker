@@ -1,6 +1,6 @@
-import DbcCheckConfig
+from common import DbcCheckConfig
 
-from DbcCheckerInterface import *
+from interfaces.DbcCheckerInterface import *
 
 class DbcNodesChecker( DbcCheckerInterface ):
     def processDbcFile( self, aDataBase: candb.Database, aDbcPath: str ):

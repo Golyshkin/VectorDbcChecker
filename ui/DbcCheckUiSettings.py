@@ -1,7 +1,7 @@
 from tkinter import *
 
-import DbcCheckConfig
-from DbcCheckUtils import *
+from common import DbcCheckConfig
+from common.DbcCheckUtils import *
 
 class DbcAppSettings:
 

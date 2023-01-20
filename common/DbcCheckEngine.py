@@ -3,10 +3,10 @@ from pathlib import Path
 
 import cantools as can
 
-import DbcCheckConfig
-from DbcBaseChecker import DbcBaseChecker
-from DbcCheckerInterface import *
-from DbcSigByteOrderChecker import DbcSigByteOrderChecker
+from VectorDbcChecker.checkers.DbcBaseChecker import DbcBaseChecker
+from VectorDbcChecker.checkers.DbcSigByteOrderChecker import DbcSigByteOrderChecker
+from common import DbcCheckConfig
+from interfaces.DbcCheckerInterface import *
 
 class DbcCheckEngine:
     DBC_EXT = "dbc"
@@ -16,7 +16,7 @@ class DbcCheckEngine:
         self.__startPath = startPath
         self.__outputCallback = outputCallback
         self.__finishCallback = finishCallback
-        DbcCheckEngine.clearCheckers()
+        DbcCheckEngine.initCheckers()
 
     @staticmethod
     def addChecker( aChecker: DbcCheckerInterface ) -> None:
@@ -29,7 +29,7 @@ class DbcCheckEngine:
         DbcCheckEngine.__checkersList.add( aChecker )
 
     @staticmethod
-    def clearCheckers() -> None:
+    def initCheckers() -> None:
         """
         Clear all checkers from subscribe list
 
