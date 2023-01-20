@@ -3,8 +3,8 @@ from pathlib import Path
 
 import cantools as can
 
-from VectorDbcChecker.checkers.DbcBaseChecker import DbcBaseChecker
-from VectorDbcChecker.checkers.DbcSigByteOrderChecker import DbcSigByteOrderChecker
+from checkers.DbcBaseChecker import DbcBaseChecker
+from checkers.DbcSigByteOrderChecker import DbcSigByteOrderChecker
 from common import DbcCheckConfig
 from interfaces.DbcCheckerInterface import *
 

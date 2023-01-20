@@ -1,9 +1,9 @@
 import threading
 
 from ui.DbcCheckUiApplication import *
-from VectorDbcChecker.checkers.DbcMsgDuplicatesChecker import *
-from VectorDbcChecker.checkers.DbcNodesChecker import *
-from VectorDbcChecker.checkers.DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
+from checkers.DbcMsgDuplicatesChecker import *
+from checkers.DbcNodesChecker import *
+from checkers.DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
 
 def onStartCheckCallback( aSelectedPath: str ):
     thread = threading.Thread( target=startDBCCheckThread, args=[ aSelectedPath ] )
