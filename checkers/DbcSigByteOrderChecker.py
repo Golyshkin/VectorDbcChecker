@@ -1,4 +1,5 @@
 from common import DbcCheckConfig
+from common.DbcCheckUtils import LOGGER
 from interfaces.DbcCheckerInterface import *
 
 class DbcSigByteOrderChecker( DbcCheckerInterface ):
@@ -14,7 +15,7 @@ class DbcSigByteOrderChecker( DbcCheckerInterface ):
 
     def processSignal( self, aSignal: Signal ) -> None:
         if aSignal.byte_order != DbcCheckConfig.SIGNAL_BYTE_ORDER:
-            DbcCheckConfig.LOGGER.error( "Signal '{0}->{1}' has '{2}' byte order, but should be '{3}'".format( aSignal.name, self.messageName, aSignal.byte_order, DbcCheckConfig.SIGNAL_BYTE_ORDER ) )
+            LOGGER.error( "Signal '{0}->{1}' has '{2}' byte order, but should be '{3}'".format( aSignal.name, self.messageName, aSignal.byte_order, DbcCheckConfig.SIGNAL_BYTE_ORDER ) )
 
     def printReport( self ) -> None:
         pass
@@ -23,4 +24,4 @@ class DbcSigByteOrderChecker( DbcCheckerInterface ):
         pass
 
     def onStart( self ) -> None:
-        DbcCheckConfig.LOGGER.info( "DBC Signals Byte Order Checker Registered." )
+        LOGGER.info( "DBC Signals Byte Order Checker Registered." )

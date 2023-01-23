@@ -6,6 +6,7 @@ import cantools as can
 from checkers.DbcBaseChecker import DbcBaseChecker
 from checkers.DbcSigByteOrderChecker import DbcSigByteOrderChecker
 from common import DbcCheckConfig
+from common.DbcCheckUtils import LOGGER
 from interfaces.DbcCheckerInterface import *
 
 class DbcCheckEngine:
@@ -85,7 +86,7 @@ class DbcCheckEngine:
         try:
             db = can.db.load_file( aFilePath, strict=DbcCheckConfig.CONF_CHECK_OVERLAP_SIGNALS )
         except Exception as e:
-            DbcCheckConfig.LOGGER.error( "{}".format( e ) )
+            LOGGER.error( "{}".format( e ) )
             return
 
         for checker in DbcCheckEngine.__checkersList:

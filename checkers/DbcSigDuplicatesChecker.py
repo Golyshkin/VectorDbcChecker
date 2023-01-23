@@ -2,6 +2,7 @@ from pathlib import Path
 
 from common import DbcCheckConfig
 from interfaces.DbcCheckerInterface import *
+from common.DbcCheckUtils import LOGGER
 
 class DbcSigDuplicatesChecker( DbcCheckerInterface ):
 
@@ -14,30 +15,30 @@ class DbcSigDuplicatesChecker( DbcCheckerInterface ):
         self.__dbcPath = Path( aDbcPath ).absolute()
 
     def printReport( self ) -> None:
-        DbcCheckConfig.LOGGER.info( "" )
-        DbcCheckConfig.LOGGER.info( "START SIGNALS DUPLICATE REPORT" )
+        LOGGER.info( "" )
+        LOGGER.info( "START SIGNALS DUPLICATE REPORT" )
         isSpnDuplicationFound: bool = False
 
         for spn, infoDict in self.__signalsDict.items():
             if len( infoDict ) > 1:
                 isSpnDuplicationFound = True
-                DbcCheckConfig.LOGGER.info( "" )
-                DbcCheckConfig.LOGGER.info( str.format( "SPN {} duplication for:", spn ) )
+                LOGGER.info( "" )
+                LOGGER.info( str.format( "SPN {} duplication for:", spn ) )
 
                 for path, infoList in infoDict.items():
                     for signalName in infoList:
-                        DbcCheckConfig.LOGGER.info( str.format( "{} in {}", signalName, path ) )
+                        LOGGER.info( str.format( "{} in {}", signalName, path ) )
 
         if not isSpnDuplicationFound:
-            DbcCheckConfig.LOGGER.info( "No duplicates found." )
+            LOGGER.info( "No duplicates found." )
 
-        DbcCheckConfig.LOGGER.info( "END SIGNALS DUPLICATE REPORT" )
+        LOGGER.info( "END SIGNALS DUPLICATE REPORT" )
 
     def onFinish( self ) -> None:
         self.printReport()
 
     def onStart( self ) -> None:
-        DbcCheckConfig.LOGGER.info( "DBC Signals Duplicate Checker Registered." )
+        LOGGER.info( "DBC Signals Duplicate Checker Registered." )
 
     def processMessage( self, aMessage: Message ) -> None:
         self.__currentMsg = aMessage.name

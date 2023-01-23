@@ -1,5 +1,10 @@
 from tkinter import Wm, Misc
 
+from common.DbcCheckConfig import *
+
+logging.basicConfig( level=logging.INFO, filename=CONF_LOG_FILE_NAME, filemode="w", format="%(asctime)s %(levelname)s: %(message)s" )
+LOGGER = logging.getLogger( __name__ )
+
 def centerWindow( aRoot: (Misc, Wm), width=300, height=200 ):
     # get screen width and height
     screen_width = aRoot.winfo_screenwidth()

@@ -130,4 +130,4 @@ class DbcCheckUiApplication( Object ):
     def insertOutput( self, text ):
         self.output.insert( tkinter.INSERT, "{}\n".format( text ) )
         cast( scrolledtext.ScrolledText, self.output ).see( "end" )
-        DbcCheckConfig.LOGGER.info( text )
+        LOGGER.info( text )

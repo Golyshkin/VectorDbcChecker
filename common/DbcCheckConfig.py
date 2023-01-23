@@ -1,9 +1,9 @@
 # Configuration file for Vector DBCChecker
 import logging
 
-APP_VER: float = 1.1
+APP_VER: float = 1.2
 APP_TITLE: str = "Vector DBCChecker Application"
-APP_ABOUT_INFO: str = "This is application checks a vector based DBC files on consistency and messages duplicates.\n\n(c) Alexander.Golyshkin 2022"
+APP_ABOUT_INFO: str = "This is application checks a vector based DBC files on consistency and messages duplicates.\n\n(c) Alexander.Golyshkin 2023"
 APP_WIN_SIZE_APP_WIDTH: int = 800
 APP_WIN_SIZE_APP_HEIGHT: int = 600
 APP_WIN_SIZE_SETTINGS_WIDTH: int = 380
@@ -21,5 +21,3 @@ CONF_PAD_DY: int = 5
 # By default, is expected an Intel byte order in signals
 SIGNAL_BYTE_ORDER: str = "little_endian"
 
-logging.basicConfig( level=logging.INFO, filename=CONF_LOG_FILE_NAME, filemode="w", format="%(asctime)s %(levelname)s: %(message)s" )
-LOGGER = logging.getLogger( __name__ )

@@ -4,13 +4,14 @@ from ui.DbcCheckUiApplication import *
 from checkers.DbcMsgDuplicatesChecker import *
 from checkers.DbcNodesChecker import *
 from checkers.DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
+from common.DbcCheckUtils import LOGGER
 
 def onStartCheckCallback( aSelectedPath: str ):
     thread = threading.Thread( target=startDBCCheckThread, args=[ aSelectedPath ] )
     thread.start()
 
 def startDBCCheckThread( aSelectedPath: str ):
-    DbcCheckConfig.LOGGER.info( str.format( "START DBCs CHECK v.{} FOR [{}].", DbcCheckConfig.APP_VER, aSelectedPath ) )
+    LOGGER.info( str.format( "START DBCs CHECK v.{} FOR [{}].", DbcCheckConfig.APP_VER, aSelectedPath ) )
 
     DbcCheckEngine.initCheckers()
     dbcCheckEngine: DbcCheckEngine = DbcCheckEngine( aSelectedPath, outputCallback, finishCallback )
@@ -30,8 +31,8 @@ def outputCallback( textOutput ):
     ui.insertOutput( textOutput )
 
 def finishCallback():
-    DbcCheckConfig.LOGGER.info( "END DBCs CHECK." )
-    DbcCheckConfig.LOGGER.info( "--" )
+    LOGGER.info( "END DBCs CHECK." )
+    LOGGER.info( "--" )
 
     ui.onFinish()
 
