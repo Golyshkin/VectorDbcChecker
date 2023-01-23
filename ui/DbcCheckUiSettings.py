@@ -11,6 +11,8 @@ class DbcAppSettings:
         self.frame.minsize( DbcCheckConfig.APP_WIN_SIZE_SETTINGS_WIDTH, DbcCheckConfig.APP_WIN_SIZE_SETTINGS_HEIGHT )
         self.frame.title( DbcCheckConfig.APP_TITLE + " Settings" )
         self.frame.rowconfigure( 7, weight=1 )
+        # Make this dialog to modal
+        self.frame.grab_set()
         self.isIgnoreMsgDupWithSameSignalsValue = BooleanVar( value=DbcCheckConfig.CONF_IGNORE_MSG_DUP_WITH_SAME_SIGNALS )
         self.isCheckOverlapSignalsValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_OVERLAP_SIGNALS )
         self.isCheckMissedNetworkNodesValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_MISSED_NETWORK_NODES )
