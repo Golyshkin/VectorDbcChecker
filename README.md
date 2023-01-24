@@ -14,18 +14,13 @@ checkers to the project.
 
 The following projects files are responsible for:
 
-1. **DbcCheckConfig.py** - Project configuration
-2. **DbcCheckEngine.py** - Check engine with base check bejavior
-3. **DbcCheckerInterface.py** - common interfaces for all available DBC checkers
-4. **DbcCheckMain.py** - MAIN entrance
-5. **DbcCheckUiApplication.py** - GUI application
-6. **DbcCheckUiSettings.py** - GUI application settings
-7. **DbcMsgDuplicatesChecker.py** - DBC messages duplication checker
-8. **DbcNodesChecker.py** - DBC missed network nodes checker
-9. **DbcBaseChecker.py** - DBC base checker
-10. **DbcSigDuplicatesChecker.py** - DBC signal duplication checker
-11. **DbcSigByteOrderChecker.py** - DBC signal byte order checker
-12. **examples/dbc-check.log** - an example of application output for selected directory with some DBC files
+1. **checkers** - Folder contains CHECKERs rules
+2. **common** - Prohect common files
+3. **common/DbcCheckConfig.py** - Project configuration
+4. **interfaces** - Project interfaces
+5. **ui** - Project UI files
+6. **DbcCheckMain.py** - MAIN py script
+7. **examples** - Folder contains an examples
 
 An application screenshot is following
 
@@ -38,8 +33,8 @@ is [available here](https://github.com/Golyshkin/VectorDbcChecker/blob/main/exam
 
 Actually the project has the following external modules dependency
 
-1. **cantools** - need to install this module before starting a GUI application
-2. Clone project according to GitHub instructions
+1. Clone project according to GitHub instructions
+2. **$> pip install -r requirements.txt** - need to install required modules before starting a GUI application
 3. Since project based on Python is not necessary to compile & link this project
 4. Run the application using console command: **py DbcCheckMain.py**
 
