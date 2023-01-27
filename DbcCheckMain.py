@@ -1,10 +1,10 @@
 import threading
 
-from ui.DbcCheckUiApplication import *
 from checkers.DbcMsgDuplicatesChecker import *
+from checkers.DbcMsgCheckWithPolarionIntegration import DbcMsgCheckWithPolarionIntegration
 from checkers.DbcNodesChecker import *
 from checkers.DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
-from common.DbcCheckUtils import LOGGER
+from ui.DbcCheckUiApplication import *
 
 def onStartCheckCallback( aSelectedPath: str ):
     thread = threading.Thread( target=startDBCCheckThread, args=[ aSelectedPath ] )
@@ -24,6 +24,9 @@ def startDBCCheckThread( aSelectedPath: str ):
 
     if DbcCheckConfig.CONF_CHECK_SIG_SPN_DUPLICATION:
         dbcCheckEngine.addChecker( DbcSigDuplicatesChecker() )
+
+    if DbcCheckConfig.CONF_USE_POLARION_INTEGRATIONS_FOR_CHECK_SIGNALS:
+        dbcCheckEngine.addChecker( DbcMsgCheckWithPolarionIntegration() )
 
     dbcCheckEngine.startCheck()
 

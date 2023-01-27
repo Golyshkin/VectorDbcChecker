@@ -1,3 +1,4 @@
+import logging
 from tkinter import Wm, Misc
 
 from common.DbcCheckConfig import *
@@ -13,4 +14,7 @@ def centerWindow( aRoot: (Misc, Wm), width=300, height=200 ):
     # calculate position x and y coordinates
     x = (screen_width / 2) - (width / 2)
     y = (screen_height / 2) - (height / 2)
-    aRoot.geometry( '%dx%d+%d+%d' % (width, height, x, y) )
+    # Change size & position
+    # aRoot.geometry( '%dx%d+%d+%d' % (width, height, x, y) )
+    # Just change a position
+    aRoot.geometry( '+%d+%d' % (x, y) )

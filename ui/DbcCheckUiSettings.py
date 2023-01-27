@@ -20,6 +20,7 @@ class DbcAppSettings:
         self.isCheckSigSpnDuplicationValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_SIG_SPN_DUPLICATION )
         self.isCheckDbVersionValue = BooleanVar( value=DbcCheckConfig.CONF_CHECK_DB_VERSION )
         self.signalByteOrder = StringVar( value=DbcCheckConfig.SIGNAL_BYTE_ORDER )
+        self.usePolarionFasIntegrationsForCheckSignalsValue = BooleanVar( value=DbcCheckConfig.CONF_USE_POLARION_INTEGRATIONS_FOR_CHECK_SIGNALS )
 
     def configureUi( self ) -> None:
         self.checkMsgDuplicationCheckBox = Checkbutton( master=self.frame, text="Check Messages Duplication", variable=self.isCheckMsgDuplicationValue, command=self.onSettingsChange )
@@ -39,6 +40,9 @@ class DbcAppSettings:
 
         self.ignoreMsgDupWithSameSignalsCheckBox = Checkbutton( master=self.frame, text="Ignore Messages Duplication for the Same Signals", variable=self.isIgnoreMsgDupWithSameSignalsValue, command=self.onSettingsChange )
         self.ignoreMsgDupWithSameSignalsCheckBox.grid( row=5, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
+
+        self.usePolarionFasIntegrationsForCheckSignalsCheckBox = Checkbutton( master=self.frame, text="Use Polarion Integration Info for check signals", variable=self.usePolarionFasIntegrationsForCheckSignalsValue, command=self.onSettingsChange )
+        self.usePolarionFasIntegrationsForCheckSignalsCheckBox.grid( row=6, column=0, padx=DbcCheckConfig.CONF_PAD_DX, sticky="W" )
 
         radioFrame = Frame( self.frame )
         radioFrame.grid( sticky="NEWS" )
@@ -68,6 +72,7 @@ class DbcAppSettings:
         DbcCheckConfig.CONF_CHECK_SIG_SPN_DUPLICATION = self.isCheckSigSpnDuplicationValue.get()
         DbcCheckConfig.isCheckDbVersionValue = self.isCheckDbVersionValue.get()
         DbcCheckConfig.SIGNAL_BYTE_ORDER = self.signalByteOrder.get()
+        DbcCheckConfig.CONF_USE_POLARION_INTEGRATIONS_FOR_CHECK_SIGNALS = self.usePolarionFasIntegrationsForCheckSignalsValue.get()
 
     def onApplySettings( self ) -> None:
         # Do nothing all things are applied automatically now

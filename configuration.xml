@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration ver="1.0">
+    <polarionUrl>http://polarion.arrival.dc/polarion</polarionUrl>
+    <polarionLogin>golyshkin@arrival.com</polarionLogin>
+    <polarionPwd>****</polarionPwd>
+    <documentLocations>
+        <!--
+        <documentLocation>features_DomainHMI_SAFENOTIFY_Architecture_Specification/SAFENOTIFY_Architecture_Specification</documentLocation>
+        -->
+        <documentLocation>features_DomainHMI_NAV_Architecture_Specification/NAV_Architecture_Specification</documentLocation>
+    </documentLocations>
+</configuration>
