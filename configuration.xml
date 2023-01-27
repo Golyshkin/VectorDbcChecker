@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration ver="1.0">
-    <polarionUrl>http://polarion.arrival.dc/polarion</polarionUrl>
-    <polarionLogin>golyshkin@arrival.com</polarionLogin>
+    <polarionUrl>http://polarion.com/polarion</polarionUrl>
+    <polarionLogin>email@com</polarionLogin>
     <polarionPwd>****</polarionPwd>
     <documentLocations>
         <!--
