@@ -1,8 +1,7 @@
 from pathlib import Path
 
-from common import DbcCheckConfig
-from interfaces.DbcCheckerInterface import *
 from common.DbcCheckUtils import LOGGER
+from interfaces.DbcCheckerInterface import *
 
 class DbcSigDuplicatesChecker( DbcCheckerInterface ):
 
@@ -54,3 +53,6 @@ class DbcSigDuplicatesChecker( DbcCheckerInterface ):
                 self.__signalsDict[ aSignal.spn ][ self.__dbcPath ] = list()
 
             self.__signalsDict[ aSignal.spn ][ self.__dbcPath ].append( str.format( "{}->{}", self.__currentMsg, aSignal.name ) )
+
+    def getName( self ) -> str:
+        return "DbcSigDuplicatesChecker"

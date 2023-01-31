@@ -63,3 +63,20 @@ class DbcCheckerInterface:
         :return: void
         """
         raise NotImplementedError()
+
+    def isActive( self ) -> bool:
+        """
+        This method return a registered plugin current status.
+
+        :return: Ttue if active, False otherwise
+        """
+        return True
+
+    @abstractmethod
+    def getName( self ) -> str:
+        """
+        This method returns a registered plugin name.
+
+        :return: plugin name
+        """
+        raise NotImplementedError()

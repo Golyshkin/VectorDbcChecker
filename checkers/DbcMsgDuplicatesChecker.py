@@ -58,3 +58,6 @@ class DbcMsgDuplicatesChecker( DbcCheckerInterface ):
 
     def processSignal( self, aSignal: Signal ) -> None:
         pass
+
+    def getName( self ) -> str:
+        return "DbcMsgDuplicatesChecker"

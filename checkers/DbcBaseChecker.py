@@ -21,3 +21,6 @@ class DbcBaseChecker( DbcCheckerInterface ):
 
     def printReport( self ) -> None:
         pass
+
+    def getName( self ) -> str:
+        return "DbcBaseChecker"

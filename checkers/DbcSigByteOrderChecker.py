@@ -25,3 +25,6 @@ class DbcSigByteOrderChecker( DbcCheckerInterface ):
 
     def onStart( self ) -> None:
         LOGGER.info( "DBC Signals Byte Order Checker Registered." )
+
+    def getName( self ) -> str:
+        return "DbcSigByteOrderChecker"

@@ -1,7 +1,7 @@
 import threading
 
-from checkers.DbcMsgDuplicatesChecker import *
 from checkers.DbcMsgCheckWithPolarionIntegration import DbcMsgCheckWithPolarionIntegration
+from checkers.DbcMsgDuplicatesChecker import *
 from checkers.DbcNodesChecker import *
 from checkers.DbcSigDuplicatesChecker import DbcSigDuplicatesChecker
 from ui.DbcCheckUiApplication import *

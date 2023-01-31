@@ -20,3 +20,6 @@ class DbcNodesChecker( DbcCheckerInterface ):
 
     def printReport( self ) -> None:
         pass
+
+    def getName( self ) -> str:
+        return "DbcNodesChecker"

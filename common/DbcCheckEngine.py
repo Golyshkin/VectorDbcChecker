@@ -59,7 +59,8 @@ class DbcCheckEngine:
         :return: void
         """
         for checker in DbcCheckEngine.__checkersList:
-            checker.onStart()
+            if checker.isActive():
+                checker.onStart()
 
         if os.path.isdir( self.__startPath ):
             for r, d, f in os.walk( self.__startPath ):
@@ -71,7 +72,8 @@ class DbcCheckEngine:
             self.__processSingleFile( self.__startPath )
 
         for checker in DbcCheckEngine.__checkersList:
-            checker.onFinish()
+            if checker.isActive():
+                checker.onFinish()
 
         self.__finishCallback()
 
@@ -90,12 +92,15 @@ class DbcCheckEngine:
             return
 
         for checker in DbcCheckEngine.__checkersList:
-            checker.processDbcFile( db, aFilePath )
+            if checker.isActive():
+                checker.processDbcFile( db, aFilePath )
 
         for message in db.messages:
             for checker in DbcCheckEngine.__checkersList:
-                checker.processMessage( message )
+                if checker.isActive():
+                    checker.processMessage( message )
 
             for signal in message.signals:
                 for checker in DbcCheckEngine.__checkersList:
-                    checker.processSignal( signal )
+                    if checker.isActive():
+                        checker.processSignal( signal )
