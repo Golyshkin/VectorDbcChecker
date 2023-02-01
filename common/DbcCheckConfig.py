@@ -1,6 +1,6 @@
 # Configuration file for Vector DBCChecker
 
-APP_VER: float = 1.2
+APP_VER: float = 1.3
 APP_TITLE: str = "Vector DBCChecker Application"
 APP_ABOUT_INFO: str = "This is application checks a vector based DBC files on consistency and messages duplicates.\n\n(c) Alexander.Golyshkin 2023"
 APP_CONFIG_XML_PATH: str = "configuration.xml"
