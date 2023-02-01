@@ -13,14 +13,14 @@ class DbcMsgDuplicatesChecker( DbcCheckerInterface ):
         self._dbcPath = Path( aDbcPath ).absolute()
 
     def onStart( self ):
-        LOGGER.info( "DBC Messages Duplicate Checker Registered." )
+        LOGGER.info( f"{self.getName()} Registered." )
 
     def onFinish( self ):
         self.printReport()
 
     def printReport( self ):
         LOGGER.info( "" )
-        LOGGER.info( "START MESSAGES DUPLICATE REPORT" )
+        LOGGER.info( f"START {self.getName()} REPORT" )
 
         if len( self._duplicatesInfoDict ):
             for key in self._duplicatesInfoDict:
@@ -41,7 +41,7 @@ class DbcMsgDuplicatesChecker( DbcCheckerInterface ):
                         LOGGER.info( "for '{0}' with signals hash '{1}'".format( msgInfo[ 0 ], msgInfo[ 1 ] ) )
         else:
             LOGGER.info( "No duplicates found." )
-        LOGGER.info( "END MESSAGES DUPLICATE REPORT" )
+        LOGGER.info( f"END {self.getName()} REPORT" )
 
     def processMessage( self, aMessage: Message ) -> None:
         if aMessage.frame_id in self._messagesDict:
@@ -60,4 +60,4 @@ class DbcMsgDuplicatesChecker( DbcCheckerInterface ):
         pass
 
     def getName( self ) -> str:
-        return "DbcMsgDuplicatesChecker"
+        return "DBC Messages Duplicate Checker"

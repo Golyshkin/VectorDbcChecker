@@ -60,6 +60,7 @@ class DbcCheckEngine:
         """
         for checker in DbcCheckEngine.__checkersList:
             if checker.isActive():
+                self.__outputCallback( f"Initializing '{checker.getName()}' ..." )
                 checker.onStart()
 
         if os.path.isdir( self.__startPath ):

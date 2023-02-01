@@ -8,7 +8,7 @@ class DbcBaseChecker( DbcCheckerInterface ):
             LOGGER.error( "DBC version is not defined." )
 
     def onStart( self ):
-        LOGGER.info( "DBC Base Checker Registered." )
+        LOGGER.info( f"{self.getName()} Registered." )
 
     def onFinish( self ):
         pass
@@ -23,4 +23,4 @@ class DbcBaseChecker( DbcCheckerInterface ):
         pass
 
     def getName( self ) -> str:
-        return "DbcBaseChecker"
+        return "DBC Base Checker"

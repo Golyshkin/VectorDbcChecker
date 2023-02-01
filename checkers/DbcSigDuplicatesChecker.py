@@ -15,7 +15,7 @@ class DbcSigDuplicatesChecker( DbcCheckerInterface ):
 
     def printReport( self ) -> None:
         LOGGER.info( "" )
-        LOGGER.info( "START SIGNALS DUPLICATE REPORT" )
+        LOGGER.info( f"START {self.getName()} REPORT" )
         isSpnDuplicationFound: bool = False
 
         for spn, infoDict in self.__signalsDict.items():
@@ -31,13 +31,13 @@ class DbcSigDuplicatesChecker( DbcCheckerInterface ):
         if not isSpnDuplicationFound:
             LOGGER.info( "No duplicates found." )
 
-        LOGGER.info( "END SIGNALS DUPLICATE REPORT" )
+        LOGGER.info( f"END {self.getName()} REPORT" )
 
     def onFinish( self ) -> None:
         self.printReport()
 
     def onStart( self ) -> None:
-        LOGGER.info( "DBC Signals Duplicate Checker Registered." )
+        LOGGER.info( f"{self.getName()} Registered." )
 
     def processMessage( self, aMessage: Message ) -> None:
         self.__currentMsg = aMessage.name
@@ -55,4 +55,4 @@ class DbcSigDuplicatesChecker( DbcCheckerInterface ):
             self.__signalsDict[ aSignal.spn ][ self.__dbcPath ].append( str.format( "{}->{}", self.__currentMsg, aSignal.name ) )
 
     def getName( self ) -> str:
-        return "DbcSigDuplicatesChecker"
+        return "DBC Signals Duplicate Checker"

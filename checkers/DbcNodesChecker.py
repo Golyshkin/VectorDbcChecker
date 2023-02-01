@@ -7,7 +7,7 @@ class DbcNodesChecker( DbcCheckerInterface ):
             LOGGER.error( "Missed network nodes detected." )
 
     def onStart( self ):
-        LOGGER.info( "DBC Nodes Checker Registered." )
+        LOGGER.info( f"{self.getName()} Registered." )
 
     def onFinish( self ):
         pass
@@ -22,4 +22,4 @@ class DbcNodesChecker( DbcCheckerInterface ):
         pass
 
     def getName( self ) -> str:
-        return "DbcNodesChecker"
+        return "DBC Nodes Checker"
