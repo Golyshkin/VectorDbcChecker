@@ -143,17 +143,18 @@ class DbcMsgCheckWithPolarionIntegration( DbcCheckerInterface ):
                     syssIntegartionContent: str = sysIntegrationWi.getCustomField( "implementation" ).__getattribute__( "content" )
                     try:
                         type, dbc, msg, sig = syssIntegartionContent.split( '\n', maxsplit=3 )
-                    except ValueError as exception:
+
+                        if cast( str, type ).__contains__( "CAN" ):
+                            self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_FILE_KEY ] = cast( str, dbc ).split( ':' )[ 1 ].strip()
+                            self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_MSG_KEY ] = cast( str, msg ).split( ':' )[ 1 ].strip()
+                            self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_SIG_KEY ] = cast( str, sig ).split( ':' )[ 1 ].strip()
+                            self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ]: dict = { }
+                            self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ][ self.DBC_FILE_KEY ] = self.CHECK_STATUS.NOK
+                            self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ][ self.DBC_MSG_KEY ] = self.CHECK_STATUS.NOK
+                            self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ][ self.DBC_SIG_KEY ] = self.CHECK_STATUS.NOK
+                    except ValueError:
                         LOGGER.error( f"Ignoring the {sysIntegrationWi.__getattribute__( 'type' ).id} since format is unknown : {syssIntegartionContent}" )
 
-                    if cast( str, type ).__contains__( "CAN" ):
-                        self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_FILE_KEY ] = cast( str, dbc ).split( ':' )[ 1 ].strip()
-                        self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_MSG_KEY ] = cast( str, msg ).split( ':' )[ 1 ].strip()
-                        self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_SIG_KEY ] = cast( str, sig ).split( ':' )[ 1 ].strip()
-                        self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ]: dict = { }
-                        self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ][ self.DBC_FILE_KEY ] = self.CHECK_STATUS.NOK
-                        self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ][ self.DBC_MSG_KEY ] = self.CHECK_STATUS.NOK
-                        self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ][ self.DBC_SIG_KEY ] = self.CHECK_STATUS.NOK
             except Exception as exception:
                 LOGGER.error( f"{self.getName()} plugin is deactivated due exception \"{exception}\"" )
                 self.m_IsActive = False
