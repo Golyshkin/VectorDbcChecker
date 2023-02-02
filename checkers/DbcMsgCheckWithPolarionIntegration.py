@@ -132,11 +132,12 @@ class DbcMsgCheckWithPolarionIntegration( DbcCheckerInterface ):
 
     def onStart( self ) -> None:
         LOGGER.info( f"{self.getName()} Registered." )
-        plrn = polarion.Polarion( polarion_url=DbcMsgCheckWithPolarionIntegration.CONFIG[ "polarionUrl" ], user=DbcMsgCheckWithPolarionIntegration.CONFIG[ "polarionLogin" ], password=DbcMsgCheckWithPolarionIntegration.CONFIG[ "polarionPwd" ] )
-        prj = plrn.getProject( project_id=self.m_PlrnProjectId )
-        for documentLocation in DbcMsgCheckWithPolarionIntegration.CONFIG[ "documentLocations" ]:
-            LOGGER.info( f"Start polarion [{documentLocation}] document processing." )
-            try:
+        try:
+            plrn = polarion.Polarion( polarion_url=DbcMsgCheckWithPolarionIntegration.CONFIG[ "polarionUrl" ], user=DbcMsgCheckWithPolarionIntegration.CONFIG[ "polarionLogin" ], password=DbcMsgCheckWithPolarionIntegration.CONFIG[ "polarionPwd" ] )
+            prj = plrn.getProject( project_id=self.m_PlrnProjectId )
+            for documentLocation in DbcMsgCheckWithPolarionIntegration.CONFIG[ "documentLocations" ]:
+                LOGGER.info( f"Start polarion [{documentLocation}] document processing." )
+
                 for sysIntegrationWiRaw in prj.searchWorkitemFullItem( query=f"type:{self.m_SystemIntegrationType} AND '{documentLocation}'" ):
 
                     sysIntegrationWi: Workitem = cast( Workitem, sysIntegrationWiRaw )
@@ -154,7 +155,6 @@ class DbcMsgCheckWithPolarionIntegration( DbcCheckerInterface ):
                             self.m_PlrInfo[ documentLocation ][ sysIntegrationWi.__getattribute__( "id" ) ][ self.DBC_CHECK_STATUS_KEY ][ self.DBC_SIG_KEY ] = self.CHECK_STATUS.NOK
                     except ValueError:
                         LOGGER.error( f"Ignoring the {sysIntegrationWi.__getattribute__( 'type' ).id} since format is unknown : {syssIntegartionContent}" )
-
-            except Exception as exception:
-                LOGGER.error( f"{self.getName()} plugin is deactivated due exception \"{exception}\"" )
-                self.m_IsActive = False
+        except Exception as exception:
+            LOGGER.error( f"{self.getName()} plugin is deactivated due exception \"{exception}\"" )
+            self.m_IsActive = False
