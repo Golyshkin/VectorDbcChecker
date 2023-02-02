@@ -26,9 +26,6 @@ An application screenshot is following
 
 ![](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/vectordbcchecker-screenshot.png#4)
 
-An application output log
-is [available here](https://github.com/Golyshkin/VectorDbcChecker/blob/main/examples/dbc-check.log)
-
 # Build instructions
 
 Actually the project has the following external modules dependency
