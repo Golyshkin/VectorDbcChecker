@@ -1,6 +1,6 @@
 # VectorDbcChecker
 
-VectorDBCChecker a Python 3.10x written application for simple checking single or list of DBC files for:
+VectorDBCChecker a Python 3.10x written application (Windows/Linux) for simple checking single or list of DBC files for:
 
 1. Messages duplication (in case of directory for checking was selected)
 2. Signals overlap in message
